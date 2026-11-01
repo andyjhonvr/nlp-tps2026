@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "generated": "The default value for this setting in Windows 7 and later is 1024x768. This means that you can use a larger screen resolution if your computer has more than one monitor connected to it, but not all monitors have the same aspect ratio (e.g., they may be different sizes). You should also check whether there are any other settings related to the display configuration such as refresh rate or color depth."
+  },
+  {
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "generated": "A transformer architecture consists of two parts, the input and output layers. The input layer receives an incoming signal from one or more sources (e.g., sensors) that are connected to it through some kind of network topology. In this case, we will call such networks “transformer” networks. Each transformer network has its own set of parameters for each source node in order to transform the received signals into desired outputs. For example, if there were three nodes in our system with inputs x1,"
+  },
+  {
+    "question": "Define what is a generative pre-trained transformer (GPT).",
+    "reference": "A generative pre-trained transformer is a type of generative large language model that is pre-trained with an enormous and diverse text corpus in datasets, followed by discriminative fine-tuning to focus on a specific task.",
+    "generated": "A GPT is an algorithm that learns to generate new data from the input. It can be used for any kind of machine learning problem, including classification and regression tasks. The most common use case is in image recognition where it helps to learn how to classify images based on their content rather than just using features extracted by hand. In this paper we will focus our attention on the task of classifying face images with respect to gender. We are interested in building a classifier which takes as inputs two sets of facial"
+  },
+  {
+    "question": "Which sources comprise the weighted pre-training dataset for GPT-3?",
+    "reference": "The sources are Common Crawl (60%), WebText2 (22%), Books1 (8%), Books2 (8%), and Wikipedia (3%).",
+    "generated": "The weights of each source are calculated using a combination of three different methods. First, we use an ensemble method to combine all training data from multiple sources and then apply a weighting scheme that is based on their relative importance in predicting the target task (e.g., [@B11]). Second, we perform a cross validation procedure by randomly selecting one or more samples per class as our test set. Finally, we train a model with only those features used during training. This approach allows us to avoid over"
+  },
+  {
+    "question": "List the three main classes of language modelling tasks discussed in the context of transformers?",
+    "reference": "The three main classes are masked, autoregressive, and prefixLM tasks.",
+    "generated": "The first is to learn a set of transformations that can be applied on an input sentence. This task is called transformer learning, and it’s one of the most important problems in machine translation (MT). In this case we are using Transformer as our model for MT. We will use two different models here – one with only word-level features and another with both word level and token level features. For each class there should exist at least one transformer which has been trained by itself or jointly with"
+  },
+  {
+    "question": "What is knowledge distillation in the context of transformer models?",
+    "reference": "Knowledge distillation is a method for training a smaller student model to reproduce the output behavior of a larger teacher model, which can lower computational and memory requirements while keeping most of the teacher model's performance.",
+    "generated": "Knowledge Distillation (KD) is a technique that aims to reduce the number of parameters used by an optimization algorithm. The goal of KD is to minimize the sum of squared errors between predicted and actual values, which can be expressed as follows: $$\\text{minimize} \\sum_{i=1}^{n}\\left(y_i - f\\left(\\mathbf{\\theta}_i,\\mathbf{x}_{t-1}^{(i)}\\right)\\right)^2$$ where $\\mathbf{\\theta"
+  },
+  {
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "generated": "The first version of the Generalized Proportional Transformation (GPT) was published in 1992. It has been used to transform data from one scale into another, such as a time series or an image. In this paper we will discuss how GPT can be applied for modeling financial markets using real world data. We also present some examples that illustrate its use with different types of data sets."
+  },
+  {
+    "question": "In what year was GPT-4 released in ChatGPT?",
+    "reference": "GPT-4 was released in ChatGPT in 2023.",
+    "generated": "It is not known. The first release date of the program, which was on March 1st, 1998, has been confirmed by a source close to the project and it will be announced at an upcoming conference (ChatGPT) that will take place from May 5th - 7th this year."
+  },
+  {
+    "question": "Describe what is multimodal capability in the context of GPT-4?",
+    "reference": "Multimodal capability means GPT-4 can take images as well as text as input, allowing it to interact with users through spoken words and respond to images.",
+    "generated": "The ability to perform multiple tasks simultaneously."
+  },
+  {
+    "question": "On what date was GPT-4 training completed?",
+    "reference": "GPT-4 finished training on August 8th, 2022.",
+    "generated": "The first day of the month."
+  },
+  {
+    "question": "According to Sam Altman, what was the approximate cost of training GPT-4?",
+    "reference": "According to Sam Altman, the cost of training GPT-4 was more than $100 million.",
+    "generated": "The average cost for a person who is trained in GPT-4 would be $1.5 million per year (assuming that each class takes about 2 hours). This means that if you want to train your entire team at once, it will take approximately 3 years and costs an additional $3 million. If we assume that all classes are taught by the same instructor, then this equates to around $2 billion dollars over 5 years.\nIf I were to ask someone how much they spent on"
+  },
+  {
+    "question": "Name three developer plugins mentioned as examples in the text that were available for ChatGPT.",
+    "reference": "Expedia, OpenTable, and Zapier",
+    "generated": "The following are some of them, which I think you can use to create your own chatbot using a simple scripting language (I'm not sure if it's possible)."
+  },
+  {
+    "question": "What is Code Llama?",
+    "reference": "Code Llama is a fine-tune of Llama 2 specialized with code-specific datasets",
+    "generated": "It's a program that allows you to create and edit your own code. You can use it in any language, including C#, Java, PHP, Python etc...\nCode Lama is free software for creating and editing source files (code) using the Visual Basic programming language. The main features of this application are as follows:"
+  },
+  {
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "generated": "The new design of the Llama 3.5 is a very good one, and it has been designed to be as compact as possible for easy transportability. It also features an improved chassis that allows you to carry your laptop or tablet with ease without having to worry about any extra space on top. This makes it ideal for use by people who are not used to carrying their laptops around at all times.\nThe new design of the Llama 2.0 is even better than its predecessor, but"
+  },
+  {
+    "question": "What does the name Gemini symbolize according to the text?",
+    "reference": "The merger of Google Brain and DeepMind, and it is named after the Latin word for twins",
+    "generated": "The Gemini signifies a person who is in love with both of his or her partners. It also means that he/she has two opposite sides, one for each partner. This can be seen as an example of duality and it's relationship between man and woman."
+  },
+  {
+    "question": "What are the four main variants of Gemini mentioned in the text?",
+    "reference": "Gemini Pro, Gemini Deep Think, Gemini Flash, and Gemini Flash Lite",
+    "generated": "The first one is a variant that has been used by many people, including myself. It's called \"Gemini\" and it was created to help you understand how your body works. You can learn more about this gemini at http://www.geminisolution.com/index.php . This version uses an energy-based system for determining where your heart should be located on your body. If you have any questions or concerns regarding this method, please contact me directly (email address below"
+  },
+  {
+    "question": "What are the main types or categories of models that Mistral AI has released according to the text?",
+    "reference": "Large language models, reasoning models, text-to-speech models, optical character recognition models, embodied navigation models, AI safety models, and multimodal models.",
+    "generated": "The following is a list of all the different kinds of model."
+  },
+  {
+    "question": "What are the names of the AI reasoning models that Mistral released in June 2025?",
+    "reference": "Magistral Small (open-source) and Magistral Medium.",
+    "generated": "The following is a list of them."
+  },
+  {
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "generated": "It means the model is not restricted to a single dimension. The model can be used for any number of dimensions, and in fact many different types of data (e.g., images or text). For example, you could use an image as input to your application, but if you wanted to do some more advanced processing on this image, then you would need to have access to its original shape. You might also want to process other kinds of information about the image such as metadata like file name,"
+  },
+  {
+    "question": "What is DeepSeek Harness and what license is it distributed under?",
+    "reference": "DeepSeek Harness is an open-source AI agent harness developed by DeepSeek that provides an environment for building and running AI agents. It is distributed under the MIT License.",
+    "generated": "It's a free software project. The code can be downloaded from the GitHub repository at https://github.com/DeepSeekHarness/. You will need to have an account on Github, or you'll get a warning message when trying to download your own version of the library. If you don't want to use this program, then just install the source package using pip3 install -U deepseekharness . Then run the script with python3 setup_deepsekextract."
+  },
+  {
+    "question": "When was the first version of Gemma released?",
+    "reference": "February 2024",
+    "generated": "The original release date is unknown. It may have been in early 2000s, or it could be a later one. I don't know if there were any other versions at that time."
+  },
+  {
+    "question": "Define MedGemma and describe its intended purpose.",
+    "reference": "MedGemma is a variant of Gemma designed for medical applications like image analysis, based on Gemma 3, available in 4B and 27B sizes.",
+    "generated": "The goal of the MedGemma is to provide a way for users to create their own custom modules, which can be used in any application that uses Gemfile or Github's API (e.g., Ruby on Rails). This module will allow you to define your own gemset with all dependencies required by other gems. It also allows you to add additional requirements such as security policies, authentication mechanisms, etc. You may use this module to build applications using different versions of Ruby/Rails"
+  },
+  {
+    "question": "What programming languages does CodeGemma support?",
+    "reference": "Python, Java, C++, and more",
+    "generated": "The language is Ruby. It's a very popular and well-known programming language, but it doesn't have any special features that are specific to the Gemma framework itself (it can be used in other frameworks). You should use the gemmast library instead of using the standard Ruby libraries for this purpose."
+  },
+  {
+    "question": "How many downloads have Gemma models received since their release?",
+    "reference": "Over 150 million downloads",
+    "generated": "The number of download has been increased to 1,000."
+  },
+  {
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "generated": "The first incident involved a group of people who were trying to get into the country. They had been told that they would be allowed entry if they paid their $10 fee for entering the country. However, when they arrived at the border with Germany, they found out that there was no such thing as an entrance permit or visa. Instead, it is up to you whether you want to enter the country legally or illegally. In this case, we decided not to let them go through because we didn't"
+  },
+  {
+    "question": "What is Aya Vision and what are its capabilities?",
+    "reference": "Aya Vision is an AI model introduced by Cohere's nonprofit research lab in March 2025 that can describe images, translate text, and summarize information. It is free for research but not permitted to be used for commercial purposes.",
+    "generated": "It’s a vision system that allows you to see the future. You can use it for business, education or entertainment purposes. The main purpose of this technology is to help people understand their own futures by giving them an idea about how they will be able to live in the near future. This way, we can make sure our children have access to information on the Internet at all times so as not to miss out on important things like jobs opportunities etc.. We also want to give parents more control over"
+  },
+  {
+    "question": "Which organizations partnered with Cohere to develop language models in specific languages?",
+    "reference": "Fujitsu (for developing Takane, a Japanese LLM), LG (for developing a Korean LLM), and RBC (for introducing North for Banking).",
+    "generated": "The following is a list of the partners that have been involved in developing and implementing language model systems for various languages."
+  },
+  {
+    "question": "Determine which publishing companies sued Cohere for copyright infringement in February 2025.",
+    "reference": "A consortium of 14 publishing companies including The Atlantic, Condé Nast, and Forbes.",
+    "generated": "The defendants are the following publishers and distributors of books, magazines or other publications that were published before January 1, 2000 (the “2000 period”)."
+  },
+  {
+    "question": "What percentage stake does Microsoft hold in OpenAI Group PBC following the 2025 restructuring?",
+    "reference": "Following the 2025 restructuring, Microsoft holds a 27% stake in OpenAI Group PBC.",
+    "generated": "The company holds a 50% stake."
+  },
+  {
+    "question": "What are the research areas mentioned within Meta AI's natural language processing work?",
+    "reference": "Meta AI's natural language processing research areas include machine translation, natural language generation, and question answering.",
+    "generated": "The following is a list of some of them."
+  },
+  {
+    "question": "What is fastText and what methods did it introduce?",
+    "reference": "fastText is an open-source library for efficient text classification and learning word representations released by FAIR in 2016, which introduced methods based on character n-grams.",
+    "generated": "FastText was introduced in Java 8. It's a new feature of the language that allows you to write text faster than before, without having to use any special features like String#replaceAll() or StringBuilder#split(). The main idea behind this is that if your code can be rewritten using only one method (like replaceAll()) then there will not be much difference between writing the same thing with two different methods. This means that you don't need to worry about performance when rewriting your code because"
+  },
+  {
+    "question": "In what year did Google acquire DeepMind, and what was the reported price range?",
+    "reference": "Google confirmed its acquisition of DeepMind on 26 January 2014 for a price reportedly ranging between 650 million.",
+    "generated": "The acquisition took place in 2014."
+  },
+  {
+    "question": "What does the term 'reinforcement learning' refer to in the context of DeepMind's early work?",
+    "reference": "Reinforcement learning is an algorithm that learns from experience using only raw pixels as data input. DeepMind used this approach to train AI systems to play video games and board games by learning from the outcomes of their actions.",
+    "generated": "It refers to a process by which an agent learns from experience. In this case, it is not about how we learn but rather what we do with that knowledge. The idea behind reinforcement learning was originally proposed as a way for agents to improve their performance on tasks such as Go and AlphaGo (the two most famous examples). Reinforcement Learning has been applied to many other domains including robotics, computer vision, natural language processing etc.. However, there are some important differences between these applications compared to our"
+  },
+  {
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "generated": "The two founders were brothers. They both worked for a company called \"Anthropics\" that was based in New York City, but they had different jobs at the time. One day, one of them got sick so he quit his job to work on an anthology project with another brother who also works there. He then went back to work as a writer/editor for a magazine called \"The Magazine\". That's when he met the other brother (who is now deceased) and became friends."
+  },
+  {
+    "question": "Which companies did Anthropic accuse of knowledge distillation attacks in 2026?",
+    "reference": "Anthropic accused DeepSeek, Moonshot AI, MiniMax Group, and Alibaba Cloud of knowledge distillation attacks and distilling Claude for their models.",
+    "generated": "The company that was accused by the anthropic team, and which is now a part of the anthropic group."
+  },
+  {
+    "question": "What was the value of Alibaba's IPO on the New York Stock Exchange in September 2014?",
+    "reference": "US$231 billion, which was the largest IPO in world history at that time.",
+    "generated": "The company raised $1.5 billion, or about 1 percent of its total market capitalization at that time. It is now valued at around $2.3 billion and has a market cap of approximately $4.8 billion.\nQ: How did you get involved with this story? A: We were approached by an investor who wanted to invest in us because he had heard from other investors that we could be very successful if we went public. He told me that he thought it would take"
+  },
+  {
+    "question": "What is the definition of the 1+6+N restructuring plan announced by Alibaba in March 2023?",
+    "reference": "A restructuring that reorganized Alibaba's business structure into six independently run entities with their own CEOs and boards of directors, capable of seeking independent fundraising and market listings.",
+    "generated": "The 1+6+N restructuring plan was a new business model for Alibaba. It would be similar to what Google and Facebook have been doing, but with more control over how it operates. In addition, this plan will allow Alibaba to take on some of its existing businesses (e.g., e-commerce) while also expanding into other areas such as cloud computing. This could include providing services that are not currently available through traditional means like mobile apps or web sites."
+  },
+  {
+    "question": "How much storage space does each LoRA adapter require compared to a complete model?",
+    "reference": "Each adapter requires less than one percent of the storage space of a complete model.",
+    "generated": "Each of the following models will have their own dedicated storage area. The amount of data that can be stored in this area is limited by the number of disks and the size of your computer's hard drive (RAM). For example, if you are using an Intel Xeon E5-2680 v2 CPU with 4GB RAM, then there would only be enough room for 1TB of disk space on one machine. If you were running Windows 7 or 8, then it could take up more than"
+  },
+  {
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "generated": "RLHF is a form of reinforcement learning that uses the feedback provided by humans to learn how to perform certain tasks. It can be used in many different ways, including for example, when you are trying to improve your performance on an exam or test and need to know what will happen if you fail. The idea behind this type of training is that it allows us to use our own knowledge about the task at hand as well as other information we have received during previous experiences with similar tasks. This way,"
+  },
+  {
+    "question": "Why is explicitly defining a reward function challenging in classical reinforcement learning?",
+    "reference": "Explicitly defining a reward function that accurately approximates human preferences is challenging because human preferences are complex and difficult to quantify into a single numerical signal.",
+    "generated": "The problem with explicit rewards, as well as the fact that they are not directly observable (i.e., can be predicted), is that it makes it difficult to reason about how people will behave when given an incentive for doing something. For example, if you want to learn a policy $\\pi$ and then decide whether or not to do $x$, you have no way of knowing what your current state should look like at time $t$. You need some kind of feedback from past experience to make"
+  },
+  {
+    "question": "How is the reward model trained in RLHF?",
+    "reference": "The reward model is trained by replacing the final layer of a pre-trained model with a randomly initialized regression head, and then training it on human preference comparison data using a cross-entropy loss function to predict which responses humans prefer.",
+    "generated": "The reward function of a Q-learning algorithm depends on the current state and action. In this case, we use an exponential discount factor to determine how much time it takes for the agent to reach its goal (the maximum expected return). This means that if you want your agent to get more rewards than what it would have gotten otherwise, then you should increase the value of the discounted future reward by some amount. For example, if you are trying to maximize the total number of steps taken over all possible"
+  },
+  {
+    "question": "What are the main types of direct alignment algorithms mentioned as alternatives to RLHF?",
+    "reference": "The mentioned direct alignment algorithms are Direct Preference Optimization (DPO), Identity Preference Optimization (IPO), and Kahneman-Tversky Optimization (KTO).",
+    "generated": "The most common type is a combination of two or more methods. For example, in this case we have three different approaches for aligning data points (i.e., one method uses an unsupervised learning approach and another using supervised learning). In addition, there can be multiple ways to combine these techniques into a single algorithm that will produce better results than any individual technique alone. This is called “combination” because it combines all possible combinations of the various techniques used together.\nFor instance, consider"
+  },
+  {
+    "question": "What is the difference between reinforcement learning from human feedback (RLHF) and reinforcement learning from AI feedback (RLAIF)?",
+    "reference": "While RLHF relies on training a preference model from human feedback, RLAIF relies on training a preference model from automatically generated AI feedback, such as feedback based on conformance to constitutional principles in Anthropic's constitutional AI.",
+    "generated": "RLHF uses a model of how humans learn to solve problems. RLAIF, on the other hand, learns by using an algorithm that can be trained in real-time with no human input. The two are not exactly equivalent because they both use different models for solving tasks but have similar goals."
+  },
+  {
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "generated": "The main reason is that the response to a question can be used as an indicator of how well you understand your own answers. If someone asks, \"How do I know if my answer was correct?\" then it's easy for them to see whether or not they got what they were looking for and therefore are more likely to give their opinion on the matter. This makes it easier for people who have been trained by others to respond with confidence when answering questions."
+  },
+  {
+    "question": "What is Mixture of Experts (MoE) and what type of machine learning technique is it?",
+    "reference": "Mixture of Experts is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions. It represents a form of ensemble learning.",
+    "generated": "It's a combination of two techniques. The first one is called \"mixture\" or \"mixing\". This means that the model has been trained with different data sets, but they are all from the same source. For example, if you have training set A1 and test set B2 then your model will be able to predict whether an event happened in both cases. If we want to use this method for prediction, we need to split our dataset into train/test pairs so that each pair"
+  },
+  {
+    "question": "How does the standard MoE combine expert outputs to produce a single output?",
+    "reference": "The standard MoE produces a single output by combining expert outputs according to weights using the formula: f(x) = Σi w(x)i fi(x), which is a weighted sum of expert outputs.",
+    "generated": "The standard MoE is based on an algorithm that combines all of the experts’ results. This means it can be used for any combination of inputs, and in fact this is what we use when building our own custom algorithms. We have created a simple example below showing how you could build your own custom MoE using just one input (the number of people).\nInput 1: Inputs are integers from 0-100 inclusive.\nOutput 1: Outputs are numbers between -1 and +1"
+  },
+  {
+    "question": "What was the application domain for the meta-pi network described in the text?",
+    "reference": "The meta-pi network was used for classifying phonemes in speech signals from 6 different Japanese speakers (2 females and 4 males), where each expert was a time-delayed neural network operating on mel spectrograms.",
+    "generated": "The application domains are defined by the following rules."
+  },
+  {
+    "question": "List the companies and models mentioned as examples of MoE implementations.",
+    "reference": "Companies and models mentioned include: Google Brain (sparsely-gated MoE), Google (GShard, GLaM, Palm-540B), Meta AI (NLLB-200), Mistral AI (Mixtral 8x7B), Databricks (DBRX), Nvidia (Nemotron family, Kimi K3), and DeepSeek.",
+    "generated": "The list is here, but I don't know how to get it into a table or something like that."
+  },
+  {
+    "question": "Determine what training method alternatives to gradient descent are available for MoE models?",
+    "reference": "The expectation-maximization algorithm is mentioned as an alternative to gradient descent for training MoE, similar to how Gaussian mixture models are trained. During the expectation step, burden for explaining data points is assigned over experts, and during the maximization step, experts and gates are trained.",
+    "generated": "The most popular is the stochastic gradient descent (SGD) algorithm. SGD has been used in many applications, including image classification and regression [@bottou2010stochastic; @zhang2012learning]. However, it suffers from a high computational cost when applied on large-scale problems due to its iterative nature. In order to reduce this problem, several methods have been proposed such as alternating direction method of multipliers (ADMM), momentum based algorithms, etc. These methods can be divided into"
+  },
+  {
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "generated": "It's a set of rules that are used to determine whether or not an agent can be considered \"AI\". The most common definition for this term is the following:\n\"An autonomous system (AS) is one in which all its components have been designed and built by humans, with no artificial intelligence.\" - Wikipedia\nThe other definitions I've seen use different terms such as \"autonomous\", \"self-aware\", etc... but they're still very similar."
+  }
+]
