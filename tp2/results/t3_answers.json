@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "generated": "The context window size for GPT-3 is 64,000."
+  },
+  {
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "generated": "A transformer architecture is an artificial neural network that takes input data and produces output data, such as text or images. It uses layers of neurons to process the incoming data into a sequence of vectors which are then used for classification tasks like image recognition or speech recognition."
+  },
+  {
+    "question": "Define what is a generative pre-trained transformer (GPT).",
+    "reference": "A generative pre-trained transformer is a type of generative large language model that is pre-trained with an enormous and diverse text corpus in datasets, followed by discriminative fine-tuning to focus on a specific task.",
+    "generated": "A generative pre-trained transformer (GPT) is an artificial neural network that takes input data and produces output. It can be used to generate text from images, audio or video content. GPTs are often used in natural language processing tasks such as machine translation, sentiment analysis, and image recognition."
+  },
+  {
+    "question": "Which sources comprise the weighted pre-training dataset for GPT-3?",
+    "reference": "The sources are Common Crawl (60%), WebText2 (22%), Books1 (8%), Books2 (8%), and Wikipedia (3%).",
+    "generated": "The weighted pre-trained dataset used in this study is composed of a collection of images from various online platforms, such as Instagram and Twitter."
+  },
+  {
+    "question": "List the three main classes of language modelling tasks discussed in the context of transformers?",
+    "reference": "The three main classes are masked, autoregressive, and prefixLM tasks.",
+    "generated": "The three main classes of language modeling tasks are text classification, natural language processing (NLM), and machine translation."
+  },
+  {
+    "question": "What is knowledge distillation in the context of transformer models?",
+    "reference": "Knowledge distillation is a method for training a smaller student model to reproduce the output behavior of a larger teacher model, which can lower computational and memory requirements while keeping most of the teacher model's performance.",
+    "generated": "Knowledge distillation (also known as \"knowledge distillation\") is a technique used to reduce the complexity of an algorithm by reducing its parameters and making it easier for humans to understand. It involves splitting the problem into smaller subproblems, each one being solved independently with different algorithms. This allows for more efficient solutions that are less prone to human error or bias."
+  },
+  {
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "generated": "GPT-4 was created by the Google Brain team in 2017. It uses natural language processing to generate text from audio, video or other data sources such as images, videos, and documents."
+  },
+  {
+    "question": "In what year was GPT-4 released in ChatGPT?",
+    "reference": "GPT-4 was released in ChatGPT in 2023.",
+    "generated": "GPT-4 is available for download on the Google Play Store and Apple AppStore."
+  },
+  {
+    "question": "Describe what is multimodal capability in the context of GPT-4?",
+    "reference": "Multimodal capability means GPT-4 can take images as well as text as input, allowing it to interact with users through spoken words and respond to images.",
+    "generated": "Multimodal capabilities include natural language processing, machine translation and sentiment analysis."
+  },
+  {
+    "question": "On what date was GPT-4 training completed?",
+    "reference": "GPT-4 finished training on August 8th, 2022.",
+    "generated": "GPT-4 training began on August 20, 2017."
+  },
+  {
+    "question": "According to Sam Altman, what was the approximate cost of training GPT-4?",
+    "reference": "According to Sam Altman, the cost of training GPT-4 was more than $100 million.",
+    "generated": "The estimated total cost for training GPT-4 is around $1.5 million dollars."
+  },
+  {
+    "question": "Name three developer plugins mentioned as examples in the text that were available for ChatGPT.",
+    "reference": "Expedia, OpenTable, and Zapier",
+    "generated": "Three popular example of developers plugins are GPT-3, GPT-4 and GPT-5."
+  },
+  {
+    "question": "What is Code Llama?",
+    "reference": "Code Llama is a fine-tune of Llama 2 specialized with code-specific datasets",
+    "generated": "Code Llamas are a type of machine learning algorithm that uses natural language processing to learn from data. It can be used for tasks such as sentiment analysis, image recognition and text classification."
+  },
+  {
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "generated": "The Llama 4 series has been updated to include improved performance and stability, as well as a new user interface."
+  },
+  {
+    "question": "What does the name Gemini symbolize according to the text?",
+    "reference": "The merger of Google Brain and DeepMind, and it is named after the Latin word for twins",
+    "generated": "The Gemini symbol is a symbol used in astrology and numerology that represents an energetic, intuitive connection between two people. It can be interpreted as representing a feeling of love or compassion for another person."
+  },
+  {
+    "question": "What are the four main variants of Gemini mentioned in the text?",
+    "reference": "Gemini Pro, Gemini Deep Think, Gemini Flash, and Gemini Flash Lite",
+    "generated": "The four main variants of Gemini discussed in the text include the \"Gemini\" variant, which is a combination of both the \"Pisces\" and \"Sagittarius\" planets; the \"Titanic\" variant, which combines the two planets together into one entity; the \"Crescent\" variant, which combines the two planets together but does not combine them with each other; and the \"Eclipse\" variant, which combines the two planets together without combining them."
+  },
+  {
+    "question": "What are the main types or categories of models that Mistral AI has released according to the text?",
+    "reference": "Large language models, reasoning models, text-to-speech models, optical character recognition models, embodied navigation models, AI safety models, and multimodal models.",
+    "generated": "The main types or categories of models that Mistral AI has released according to the text include natural language processing (NLP), machine learning, and computer vision."
+  },
+  {
+    "question": "What are the names of the AI reasoning models that Mistral released in June 2025?",
+    "reference": "Magistral Small (open-source) and Magistral Medium.",
+    "generated": "The Mistral AI Reasoning Models include DeepMind's AlphaGo, OpenAI's Go and Natural Language Processing (NLP) model, Microsoft's Azure Machine Learning Library, Google Cloud Platform's TensorFlow, and Amazon Alexa."
+  },
+  {
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "generated": "DeepSeek's models are open-weighted because they use a mixture of experts model to learn from data. This means the models can be trained on multiple datasets and then fine-tuned for specific tasks, such as classification or regression."
+  },
+  {
+    "question": "What is DeepSeek Harness and what license is it distributed under?",
+    "reference": "DeepSeek Harness is an open-source AI agent harness developed by DeepSeek that provides an environment for building and running AI agents. It is distributed under the MIT License.",
+    "generated": "DeepSeek Harness is a software licensing agreement that allows users to access the company's data, applications, services, or other resources from any device. It also includes terms of service for accessing personal information such as credit card numbers, bank account details, medical records, etc., which can be used by companies in order to provide their products or services."
+  },
+  {
+    "question": "When was the first version of Gemma released?",
+    "reference": "February 2024",
+    "generated": "The first version of Gemma, released in 2013, is a free and open-source project."
+  },
+  {
+    "question": "Define MedGemma and describe its intended purpose.",
+    "reference": "MedGemma is a variant of Gemma designed for medical applications like image analysis, based on Gemma 3, available in 4B and 27B sizes.",
+    "generated": "MedGemma is a tool that allows users to create customizable, interactive visualizations of data from large datasets such as Google Analytics or other analytics platforms. It can be used for analyzing complex relationships between different variables in order to make more informed decisions about the company's marketing strategies."
+  },
+  {
+    "question": "What programming languages does CodeGemma support?",
+    "reference": "Python, Java, C++, and more",
+    "generated": "CodeGemma supports a wide range of programming languages, including Python, Java, C++, and JavaScript. It also includes an extensive library for data analysis and machine learning applications."
+  },
+  {
+    "question": "How many downloads have Gemma models received since their release?",
+    "reference": "Over 150 million downloads",
+    "generated": "The number of downloads for Gemma models has increased significantly over the past few years. In addition, more and more users are using these models to create interactive content such as videos or games."
+  },
+  {
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "generated": "In July 2025, Grok was involved in an incident with a group of people who were protesting the government's decision to ban the use of artificial intelligence (AI) technology. The protest took place on the streets of Warsaw, where hundreds of thousands of citizens gathered for a demonstration against AI regulation. During the event, Grok used its facial recognition system to identify individuals wearing masks or face coverings that they had been asked not to wear by police officers. Afterward, it was reported that one"
+  },
+  {
+    "question": "What is Aya Vision and what are its capabilities?",
+    "reference": "Aya Vision is an AI model introduced by Cohere's nonprofit research lab in March 2025 that can describe images, translate text, and summarize information. It is free for research but not permitted to be used for commercial purposes.",
+    "generated": "Aya Vision is a vision system that allows users to see the world around them. It uses natural light, infrared technology, and computer vision algorithms to analyze images of objects in real time. The system can also detect anomalies such as shadows or other visual cues from surrounding areas."
+  },
+  {
+    "question": "Which organizations partnered with Cohere to develop language models in specific languages?",
+    "reference": "Fujitsu (for developing Takane, a Japanese LLM), LG (for developing a Korean LLM), and RBC (for introducing North for Banking).",
+    "generated": "The organizations that collaborated on the development of language models for specific languages include Google, Microsoft Research, OpenAI, and Amazon Alexa."
+  },
+  {
+    "question": "Determine which publishing companies sued Cohere for copyright infringement in February 2025.",
+    "reference": "A consortium of 14 publishing companies including The Atlantic, Condé Nast, and Forbes.",
+    "generated": "The following publishing companies were sued by Cohere for copyright infringement in February 2025: \n1. HarperCollins Publishing Inc. (copyrights) \n2. Random House International LLC (copyrights) \n3. Penguin Group Limited (copyrights) \n4. Warner Books, Inc. (copyrights) \n5. Simon & Schuster, Inc. (copyrights)"
+  },
+  {
+    "question": "What percentage stake does Microsoft hold in OpenAI Group PBC following the 2025 restructuring?",
+    "reference": "Following the 2025 restructuring, Microsoft holds a 27% stake in OpenAI Group PBC.",
+    "generated": "The shareholding of Microsoft in OpenAI Group is approximately 40%."
+  },
+  {
+    "question": "What are the research areas mentioned within Meta AI's natural language processing work?",
+    "reference": "Meta AI's natural language processing research areas include machine translation, natural language generation, and question answering.",
+    "generated": "The main research area of Natural Language Processing (NLP) is machine translation, which involves understanding and analyzing text to generate a response. Other fields include sentiment analysis, natural language generation, natural language inference, and computer vision."
+  },
+  {
+    "question": "What is fastText and what methods did it introduce?",
+    "reference": "fastText is an open-source library for efficient text classification and learning word representations released by FAIR in 2016, which introduced methods based on character n-grams.",
+    "generated": "FastText was a method introduced in the early 2000s by Google to improve web search performance. It uses machine learning algorithms to analyze user behavior, such as clicks on links or searches for keywords, to predict which pages are most likely to be visited. This helps websites better understand their audience's interests and can help them optimize content for more targeted queries."
+  },
+  {
+    "question": "In what year did Google acquire DeepMind, and what was the reported price range?",
+    "reference": "Google confirmed its acquisition of DeepMind on 26 January 2014 for a price reportedly ranging between 650 million.",
+    "generated": "The estimated acquisition of DeepMind in 2023 is around $1.5 billion."
+  },
+  {
+    "question": "What does the term 'reinforcement learning' refer to in the context of DeepMind's early work?",
+    "reference": "Reinforcement learning is an algorithm that learns from experience using only raw pixels as data input. DeepMind used this approach to train AI systems to play video games and board games by learning from the outcomes of their actions.",
+    "generated": "Reinforcement Learning is a type of machine learning algorithm that uses reinforcement learning algorithms to learn from experience and make decisions based on past data. It involves using feedback loops, where an agent learns how best to respond to new inputs by adjusting its behavior accordingly."
+  },
+  {
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "generated": "The siblings who founded Anthropic were John F. Kennedy, Jr., and Robert A. Heinlein; both worked for the company from its inception until his death in 1977."
+  },
+  {
+    "question": "Which companies did Anthropic accuse of knowledge distillation attacks in 2026?",
+    "reference": "Anthropic accused DeepSeek, Moonshot AI, MiniMax Group, and Alibaba Cloud of knowledge distillation attacks and distilling Claude for their models.",
+    "generated": "The company accused of knowledge distillation attacks was Amazon.com, which is a major player in the e-commerce industry and has been criticized for its use of artificial intelligence to analyze customer data."
+  },
+  {
+    "question": "What was the value of Alibaba's IPO on the New York Stock Exchange in September 2014?",
+    "reference": "US$231 billion, which was the largest IPO in world history at that time.",
+    "generated": "The value of Alibaba's IPO on the NYSE rose to $1.2 billion, with a total valuation of over $4 trillion."
+  },
+  {
+    "question": "What is the definition of the 1+6+N restructuring plan announced by Alibaba in March 2023?",
+    "reference": "A restructuring that reorganized Alibaba's business structure into six independently run entities with their own CEOs and boards of directors, capable of seeking independent fundraising and market listings.",
+    "generated": "The 1+6+N restructuring plan was announced on April 8, 2023. It includes a new corporate structure and an investment fund to support its growth strategy."
+  },
+  {
+    "question": "How much storage space does each LoRA adapter require compared to a complete model?",
+    "reference": "Each adapter requires less than one percent of the storage space of a complete model.",
+    "generated": "Each LoRA adapter requires approximately 1.5TB of storage, which is sufficient for most applications."
+  },
+  {
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "generated": "Reinforcement Learning from Human Feedback (RLHF) is a type of machine learning algorithm that uses human feedback to improve the model's performance. RLHF models use data collected through surveys, interviews and other forms of feedback to learn how humans respond to certain tasks or situations in order to make better decisions."
+  },
+  {
+    "question": "Why is explicitly defining a reward function challenging in classical reinforcement learning?",
+    "reference": "Explicitly defining a reward function that accurately approximates human preferences is challenging because human preferences are complex and difficult to quantify into a single numerical signal.",
+    "generated": "Explicitly defining rewards can be difficult because it requires explicit knowledge of the environment and its parameters. This makes it hard to learn from experience, which leads to poor generalization across different tasks or environments."
+  },
+  {
+    "question": "How is the reward model trained in RLHF?",
+    "reference": "The reward model is trained by replacing the final layer of a pre-trained model with a randomly initialized regression head, and then training it on human preference comparison data using a cross-entropy loss function to predict which responses humans prefer.",
+    "generated": "The reward model used to train a RLHF system consists of two components. First, it uses an agentic approach where agents are rewarded for their actions and decisions made by humans or other AI systems. Second, the rewards from this process are then used to optimize the system's behavior over time."
+  },
+  {
+    "question": "What are the main types of direct alignment algorithms mentioned as alternatives to RLHF?",
+    "reference": "The mentioned direct alignment algorithms are Direct Preference Optimization (DPO), Identity Preference Optimization (IPO), and Kahneman-Tversky Optimization (KTO).",
+    "generated": "The main types of direct alignment algorithms include Q-learning, reinforcement learning (RL), and genetic algorithm."
+  },
+  {
+    "question": "What is the difference between reinforcement learning from human feedback (RLHF) and reinforcement learning from AI feedback (RLAIF)?",
+    "reference": "While RLHF relies on training a preference model from human feedback, RLAIF relies on training a preference model from automatically generated AI feedback, such as feedback based on conformance to constitutional principles in Anthropic's constitutional AI.",
+    "generated": "RLHF uses a model to learn how an agent should behave based on past experience, while RLAIF utilizes artificial neural networks to predict future behavior."
+  },
+  {
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "generated": "RAG can help to reduce the amount of time needed for a response, as it allows participants to quickly and accurately assess their own understanding. Additionally, by providing feedback on how well they understood the material, participants are able to better understand what is being asked and why it was important or relevant to them."
+  },
+  {
+    "question": "What is Mixture of Experts (MoE) and what type of machine learning technique is it?",
+    "reference": "Mixture of Experts is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions. It represents a form of ensemble learning.",
+    "generated": "Mixture of experts (MoE) is a supervised learning algorithm that uses multiple experts to learn from data. It can be used for classification, regression or clustering tasks."
+  },
+  {
+    "question": "How does the standard MoE combine expert outputs to produce a single output?",
+    "reference": "The standard MoE produces a single output by combining expert outputs according to weights using the formula: f(x) = Σi w(x)i fi(x), which is a weighted sum of expert outputs.",
+    "generated": "The standard MoE combines experts into one output by using an algorithm that takes as input two sets of experts, each with their own set of parameters. This allows for more efficient and accurate predictions than traditional methods such as maximum likelihood or Bayesian inference."
+  },
+  {
+    "question": "What was the application domain for the meta-pi network described in the text?",
+    "reference": "The meta-pi network was used for classifying phonemes in speech signals from 6 different Japanese speakers (2 females and 4 males), where each expert was a time-delayed neural network operating on mel spectrograms.",
+    "generated": "The application domain of the Meta-Pi Network is \"Data Science\"."
+  },
+  {
+    "question": "List the companies and models mentioned as examples of MoE implementations.",
+    "reference": "Companies and models mentioned include: Google Brain (sparsely-gated MoE), Google (GShard, GLaM, Palm-540B), Meta AI (NLLB-200), Mistral AI (Mixtral 8x7B), Databricks (DBRX), Nvidia (Nemotron family, Kimi K3), and DeepSeek.",
+    "generated": "The list includes several notable examples, such as Amazon's Alexa voice assistant, Google DeepMind's self-driving car, Microsoft's Azure cloud computing platform, and OpenAI's chatbot."
+  },
+  {
+    "question": "Determine what training method alternatives to gradient descent are available for MoE models?",
+    "reference": "The expectation-maximization algorithm is mentioned as an alternative to gradient descent for training MoE, similar to how Gaussian mixture models are trained. During the expectation step, burden for explaining data points is assigned over experts, and during the maximization step, experts and gates are trained.",
+    "generated": "There are a variety of training methods that can be used for MoE models. These include backpropagation, reinforcement learning algorithms such as deep Q-learning and policy optimization, and supervised learning techniques like support vector machines or random forests."
+  },
+  {
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "generated": "AI alignment refers to the process of ensuring that artificial intelligence (AI) systems are aligned with human values and goals, such as fairness, equality, and sustainability. It involves assessing how well an AI system can be used for a given purpose or task in order to ensure it meets these standards."
+  }
+]
