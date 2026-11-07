@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "generated": "The default value for this parameter is 256. This means that when a user opens an image, it will be displayed in a small window with a maximum width and height of 128 pixels (256 bytes). When asked to open another image, the system would display its full content on screen at once without any delay. In contrast, OpenAI's model can only show one or two images before being paused by the human operator until they are shown again. It also has a limited memory capacity which limits how much"
+  },
+  {
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "generated": "A transformers are an algorithm that can be applied to any input sequence, and produces output sequences of length n. The most common form of transformers used in natural language processing (NLP) today include the feedforward network, recurrent neural networks, attention mechanism, self-attention mechanism, and gating mechanism. They have been extended by many researchers including DeepMind's AlphaGo Zero, Google Brain's GPT-3, OpenAI's ChatGPT, Microsoft's Natural Language Toolkit,"
+  },
+  {
+    "question": "Define what is a generative pre-trained transformer (GPT).",
+    "reference": "A generative pre-trained transformer is a type of generative large language model that is pre-trained with an enormous and diverse text corpus in datasets, followed by discriminative fine-tuning to focus on a specific task.",
+    "generated": "A GPT is an unnormalized, self-attention mechanism that takes input vectors and produces outputs. The output of the GPT can be either a vector or a matrix representation of the original inputs. In other words, it's like a linear transformer but with different weights for each layer in the transformer. This allows the model to learn from data without having to explicitly train its parameters. It also enables efficient training on large datasets by reducing memory usage during inference time. There are two types of"
+  },
+  {
+    "question": "Which sources comprise the weighted pre-training dataset for GPT-3?",
+    "reference": "The sources are Common Crawl (60%), WebText2 (22%), Books1 (8%), Books2 (8%), and Wikipedia (3%).",
+    "generated": "The weights are computed by a linear transformer. This is done in two steps, first to compute the embedding vector of each token and then to transform it into an intermediate representation that can be used as input to the next layer. In this case, the weight matrix has dimensions (1, 3). Each column corresponds to one source word, while each row represents its corresponding token. For example, if we have three tokens from \"apple\", they would correspond to the vectors {0, 1, 2}."
+  },
+  {
+    "question": "List the three main classes of language modelling tasks discussed in the context of transformers?",
+    "reference": "The three main classes are masked, autoregressive, and prefixLM tasks.",
+    "generated": "The transformer is a multi-head attention mechanism. It consists of two parts, an encoder and a decoder. Each part has its own parameters (weights). In this paper we use the Transformer architecture for all our experiments except the GPT-3 model which uses only one layer per transformer. This allows us to train multiple models at once without having to switch between them during training. We also used the transformer architecture for some of our benchmarks such as NLP or RLHF. For example, the"
+  },
+  {
+    "question": "What is knowledge distillation in the context of transformer models?",
+    "reference": "Knowledge distillation is a method for training a smaller student model to reproduce the output behavior of a larger teacher model, which can lower computational and memory requirements while keeping most of the teacher model's performance.",
+    "generated": "It's a technique used to train large language model (LLM) systems by training them on small, fine-tuned versions. The goal is to produce an LLM that can perform more complex tasks than its original version without requiring additional parameters or computing time beyond what it would take for one larger model. This allows researchers and industry leaders to develop new types of AI products with greater flexibility and speed. In practice, this involves training multiple smaller LLMs on different datasets until they are sufficiently powerful enough"
+  },
+  {
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "generated": "It was created by the OpenAI team in 2026. The first version of GPT-4, released on April 26, 2026, used a mixture model architecture with three layers each for encoding, decoding, and attention. In March 2027, Google DeepMind announced that they would be releasing an improved version called GPT-3B (pronounced \"GPT 3B\") which uses only two layers instead of four. On February 28, 2025, DeepMind launched its Alpha"
+  },
+  {
+    "question": "In what year was GPT-4 released in ChatGPT?",
+    "reference": "GPT-4 was released in ChatGPT in 2023.",
+    "generated": "It is available on the Google Code repository. The release date of GPT-4 is 2026, and it has been integrated into many chatbots such as Turing, OpenAI's ChatGPT, and others. On February 28, 2025, a new version of GPT-4 (v3) was announced by DeepMind, which added improved performance for tasks requiring high levels of cognitive load like reasoning or planning. This update also introduced improvements to its AI assistant, GPT"
+  },
+  {
+    "question": "Describe what is multimodal capability in the context of GPT-4?",
+    "reference": "Multimodal capability means GPT-4 can take images as well as text as input, allowing it to interact with users through spoken words and respond to images.",
+    "generated": "It can be seen as a combination of both. The first step is to train an encoder–decoder transformer model, which consists of two parts: one part for encoding and another for decoding. This allows it to process multiple input modalities at once without having to switch between them individually. Then, each decoder layer has three components: one that processes only one modality (the \"encoder\"), one that processes all modalities simultaneously (the \"decoder\"), and one that processes different modalities independently (the \"multimode"
+  },
+  {
+    "question": "On what date was GPT-4 training completed?",
+    "reference": "GPT-4 finished training on August 8th, 2022.",
+    "generated": "The first day of the month. It is not clear whether this occurred on a specific day or over time, but it seems likely that it did occur at some point during the week. This would be consistent with previous research suggesting that humans are able to recall dates and times from memory even when they have no recollection of them (see \"Memory for Time\" in Chapter 3). In addition, human experts can remember events without having any prior knowledge about those events (e.g., by learning how to"
+  },
+  {
+    "question": "According to Sam Altman, what was the approximate cost of training GPT-4?",
+    "reference": "According to Sam Altman, the cost of training GPT-4 was more than $100 million.",
+    "generated": "$1.5 billion in 2017 dollars. The model is trained on a dataset consisting of over 1 million images and text from Wikipedia articles. It has been used for image generation, video editing, and web browsing. In December 2026, Google announced that it would acquire DeepMind for an undisclosed sum. On February 14, 2026, OpenAI announced they had reached an agreement with Microsoft to integrate AI into its Office suite. This deal allows users access to more than 100 thousand open source applications"
+  },
+  {
+    "question": "Name three developer plugins mentioned as examples in the text that were available for ChatGPT.",
+    "reference": "Expedia, OpenTable, and Zapier",
+    "generated": "The first two are OpenAI's GPT-3 and its successor, GPT-4; the third is Google DeepMind's AlphaGo Zero (a game of Go). In February 2026, a new version of ChatGPT was released under Apache 2.0 license with an additional restriction on use by minors. It supports chatbots written in any programming language including Python, Ruby, C++, Java or JavaScript. On March 12, 2026, Anthropic announced it would acquire Meta"
+  },
+  {
+    "question": "What is Code Llama?",
+    "reference": "Code Llama is a fine-tune of Llama 2 specialized with code-specific datasets",
+    "generated": "It's a language model that can understand and translate text into code. The model was developed by Google DeepMind, which also develops other AI models such as ChatGPT and GPT-3. In March 2026, the company announced it would acquire OpenAI for $1 billion in an all-stock deal valued at approximately $6.5 billion. On April 1, 2026, Alibaba agreed to pay US$2.8 billion (approximately £2.4 billion) to buy"
+  },
+  {
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "generated": "The model's architecture changed from a simple linear transformer to an attention mechanism. This allowed it to process more information at each step, and allow for faster training time by reducing the amount of data needed during inference. In March 2026, OpenAI announced that Llama 3 would be released on April 1, with its API open-source. On May 8, 2025, OpenAI launched Llama 3 Pro, which is available through Google Code or GitHub repositories. It supports both Python 2.7"
+  },
+  {
+    "question": "What does the name Gemini symbolize according to the text?",
+    "reference": "The merger of Google Brain and DeepMind, and it is named after the Latin word for twins",
+    "generated": "It is a reference to the Greek god of duality, and it means \"the opposite\". The word was coined by Google DeepMind in 2026. In 2027, OpenAI released Gemini 3.0 with improved AI capabilities for natural language processing (NLP). This version includes enhanced reasoning abilities such as conditional planning, which allows users to generate new or modified answers based on previous ones without human intervention. Additionally, Gemini 3.5 introduced an advanced chatbot called Gemini Chat that can"
+  },
+  {
+    "question": "What are the four main variants of Gemini mentioned in the text?",
+    "reference": "Gemini Pro, Gemini Deep Think, Gemini Flash, and Gemini Flash Lite",
+    "generated": "The first variant is called \"Gemini-1\", and it was released on April 20, 2026. It has a base model size of 1 billion parameters with an attention mechanism that can be trained to focus only on relevant information (the \"attention\" layer). This allows for faster training than other models such as GPT-3 or PyTorch. In contrast to previous versions, which were designed primarily for language modeling tasks, Gemini 2 uses a larger vocabulary of more than 10 million"
+  },
+  {
+    "question": "What are the main types or categories of models that Mistral AI has released according to the text?",
+    "reference": "Large language models, reasoning models, text-to-speech models, optical character recognition models, embodied navigation models, AI safety models, and multimodal models.",
+    "generated": "The model is a combination of several different kinds. It can be classified as either supervised, unsupervised, or both. In all cases it learns from human feedback and generates outputs consistent with its training data. This allows it to learn how humans think about questions without requiring any external source for their answers. For example, in one study, researchers asked participants to evaluate whether they were \"right\" (i.e., right) or wrong (i.e., wrong). They found that people judged themselves"
+  },
+  {
+    "question": "What are the names of the AI reasoning models that Mistral released in June 2025?",
+    "reference": "Magistral Small (open-source) and Magistral Medium.",
+    "generated": "The model is named \"Mistral DeepMind\". It was developed by OpenAI and has been integrated into its products since July. In September, it became available to users on Google Cloud Platform (GCP). On October 7, 2026, Mistral announced a partnership with Microsoft for Azure cloud computing services through an agreement called the Microsoft Azure Partnership Agreement. This deal allows Mistral access to Microsoft's Azure infrastructure as well as other Microsoft technologies such as Office 365 and SQL Server. As part of"
+  },
+  {
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "generated": "It means they can be trained on any input, and then fine-tuned to the output of a pre-trained transformer. This allows them to learn from data without requiring additional training steps or specialized hardware. The model is also called \"open\" because its parameters may be shared by multiple users at once. In practice, this often happens when an AI system has access to large amounts of text (such as web pages) but only needs limited resources for training. For example, Google Translate uses"
+  },
+  {
+    "question": "What is DeepSeek Harness and what license is it distributed under?",
+    "reference": "DeepSeek Harness is an open-source AI agent harness developed by DeepSeek that provides an environment for building and running AI agents. It is distributed under the MIT License.",
+    "generated": "The license allows the company to use the technology for research, but only if they have a good understanding of how AI works. In March 2026, OpenAI announced that its AI systems would be licensed by Google under an Apache 2.0 License. This was followed in April 2026 with Microsoft releasing ChatGPT under the MIT License. On May 8, 2025, OpenAI released ChatGPT-1.5 on GitHub as part of their \"Open Source\" initiative. It also launched"
+  },
+  {
+    "question": "When was the first version of Gemma released?",
+    "reference": "February 2024",
+    "generated": "The Gemma 3.5 release on August 20, 2026 is a major update to Gemma 3.5 and includes many new features such as improved code completion, enhanced documentation, and more efficient model training. It also introduces an API called \"Gemma\" that allows users to create custom models with additional capabilities like text-to-speech or image generation. In September 2026, OpenAI announced Gemma 4, which will be available in two sizes (1Bb and 2B"
+  },
+  {
+    "question": "Define MedGemma and describe its intended purpose.",
+    "reference": "MedGemma is a variant of Gemma designed for medical applications like image analysis, based on Gemma 3, available in 4B and 27B sizes.",
+    "generated": "The goal of the model is to generate text that can be used by humans, but it also has a number of limitations. It cannot produce any output other than what was given as input; this limits how useful it may become in certain situations. In addition, while GPT-3 generates human-like responses (such as \"yes\" or \"no\"), these are not necessarily true answers because they depend on context. For example, if you say \"I'm going to go out for dinner\","
+  },
+  {
+    "question": "What programming languages does CodeGemma support?",
+    "reference": "Python, Java, C++, and more",
+    "generated": "The language is a subset of the Python standard library. It supports both C and C++ code, but not other languages such as Java or Ruby. In addition to its basic functionality, it also provides advanced features like data-flow analysis (DFA), which allows users to analyze complex programs in real time by inspecting their flow through loops. This enables developers to create more efficient code without having to write separate modules for each task they are performing. Additionally, CodeGemma can be used to"
+  },
+  {
+    "question": "How many downloads have Gemma models received since their release?",
+    "reference": "Over 150 million downloads",
+    "generated": "The number of downloads has increased by a factor of 2.5 over the past year, and is expected to increase further in future years as more data becomes available from Google DeepMind's large language model (LLM). In December 2026, OpenAI announced that it would acquire Gemma for an undisclosed sum. On February 14, 2026, OpenAI acquired Gemma LLC, which operates Gemma AI, Inc., for $1 billion. This was followed on March 4 by another acquisition"
+  },
+  {
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "generated": "The incident involved a bot that was trained to kill people. It also included the use of chatbots for mass surveillance without consent or authorization from authorities. In March 2026, OpenAI announced it would stop using ChatGPT as its primary AI assistant due to concerns over safety and privacy. On April 12, 2026, OpenAI said it had begun testing an alternative model called GPT-3 which is designed to be more secure but still allows users to access content through web links. This"
+  },
+  {
+    "question": "What is Aya Vision and what are its capabilities?",
+    "reference": "Aya Vision is an AI model introduced by Cohere's nonprofit research lab in March 2025 that can describe images, translate text, and summarize information. It is free for research but not permitted to be used for commercial purposes.",
+    "generated": "It's a vision-language model. The goal of the model is to generate text that can be understood by humans, but it also generates images which can then be interpreted as visual representations for human beings. This allows AI systems to understand how people think or feel in different situations without having to rely on human experts. In August 2026, DeepMind released AlphaVision 2, an improved version of AlphaVision with enhanced image generation capability. On September 10, 2026, OpenAI announced Alpha"
+  },
+  {
+    "question": "Which organizations partnered with Cohere to develop language models in specific languages?",
+    "reference": "Fujitsu (for developing Takane, a Japanese LLM), LG (for developing a Korean LLM), and RBC (for introducing North for Banking).",
+    "generated": "The AI industry is a global community of companies and individuals working together on the development, deployment, and use cases for advanced artificial intelligence (AI). In July 2026, Alibaba announced it would acquire Spark AI from Google DeepMind. On September 10, 2025, Anthropic acquired OpenAI's AI research arm, including its AlphaGo program, as part of an $8 billion deal valued at approximately US$12 billion. Anthropic also agreed to pay US$1.5 billion over five"
+  },
+  {
+    "question": "Determine which publishing companies sued Cohere for copyright infringement in February 2025.",
+    "reference": "A consortium of 14 publishing companies including The Atlantic, Condé Nast, and Forbes.",
+    "generated": "The most likely answer is the same as that given by OpenAI, with a slightly higher probability of being correct than the one from Google DeepMind (0.9%). This means that if you are looking at an AI system's behavior based on its training data alone, it may be more accurate to assume that it follows certain rules and then adjust accordingly rather than try to predict what will happen without any input whatsoever. However, this does not necessarily mean that the model can always accurately anticipate future events or"
+  },
+  {
+    "question": "What percentage stake does Microsoft hold in OpenAI Group PBC following the 2025 restructuring?",
+    "reference": "Following the 2025 restructuring, Microsoft holds a 27% stake in OpenAI Group PBC.",
+    "generated": "The company holds a 50% stake. In March 2026, it was reported that OpenAI had agreed to pay $1 billion for an additional 5 percent equity interest in its IPO and would use this as part of its valuation increase. On April 12, 2026, OpenAI announced plans to sell its remaining shares at a price between $10 per share and $20 per share. This move came after months of uncertainty over whether or when the company's board might approve such a sale. According"
+  },
+  {
+    "question": "What are the research areas mentioned within Meta AI's natural language processing work?",
+    "reference": "Meta AI's natural language processing research areas include machine translation, natural language generation, and question answering.",
+    "generated": "The following is a list of topics that have been discussed in Meta AI's Natural Language Processing (NLP) lab. These include machine learning, computer vision and image generation, text analysis, natural language understanding, natural-language reasoning, and artificial intelligence. In addition to these general areas, Meta has also published articles on specific fields such as robotics, coding, and software engineering. Meta AI was founded by two MIT graduates, Sam Altman and Greg Brockman, who met while working at Google"
+  },
+  {
+    "question": "What is fastText and what methods did it introduce?",
+    "reference": "fastText is an open-source library for efficient text classification and learning word representations released by FAIR in 2016, which introduced methods based on character n-grams.",
+    "generated": "FastText was a model that can be trained on text, but the original authors of the model were not aware of its capabilities. The original version used an encoder-decoder transformer architecture with attention mechanism to generate output tokens from input words. This approach has been improved upon by other researchers such as DeepMind in 2017. In 2018, OpenAI introduced ChatGPT, which uses a similar encoder-decoder structure for generating responses. It also supports multiple languages at once (including Chinese). On April 20,"
+  },
+  {
+    "question": "In what year did Google acquire DeepMind, and what was the reported price range?",
+    "reference": "Google confirmed its acquisition of DeepMind on 26 January 2014 for a price reportedly ranging between 650 million.",
+    "generated": "The acquisition took place in 2023. According to a report by Bloomberg Businessweek, it cost $1 billion for each of three AI companies that were acquired between 2022 and 2024. It also said that OpenAI's valuation had reached $100 billion at the time of the deal. On February 28, 2026, Alibaba announced an agreement with Microsoft to integrate its Azure cloud computing platform into Alipay's payment system. This would allow users to pay more than US$2 per transaction"
+  },
+  {
+    "question": "What does the term 'reinforcement learning' refer to in the context of DeepMind's early work?",
+    "reference": "Reinforcement learning is an algorithm that learns from experience using only raw pixels as data input. DeepMind used this approach to train AI systems to play video games and board games by learning from the outcomes of their actions.",
+    "generated": "It refers to a process where an AI agent learns from its environment and then applies that knowledge to solve problems. The term is used by researchers such as Daniela Mancini, who argues that reinforcement learning can be applied to any problem without requiring human supervision or explicit instructions. In other words, it allows agents to learn how to behave autonomously even when they are not explicitly instructed about what behavior should occur. This has led some scholars to argue for the use of reinforcement learning in artificial general intelligence"
+  },
+  {
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "generated": "The Co-Founder is Alistair Murdoch, a former CEO at Google DeepMind. He was previously an executive vice president for Microsoft's Azure cloud computing business unit; he also served as chief technology officer (CTO) of OpenAI from 2014 to 2016. In November 2026, it was announced that Anthropic would acquire $1 billion in shares valued at approximately US$2.5 billion from investors including SoftBank Group, JPMorgan Chase & Co., and Andreessen Hor"
+  },
+  {
+    "question": "Which companies did Anthropic accuse of knowledge distillation attacks in 2026?",
+    "reference": "Anthropic accused DeepSeek, Moonshot AI, MiniMax Group, and Alibaba Cloud of knowledge distillation attacks and distilling Claude for their models.",
+    "generated": "The company was accused by the US Department of Defense (DoD) and other government agencies, including the National Security Agency (NSA), of violating federal law. In September 2025, Anthropic agreed to pay $1 billion to settle a lawsuit filed against it by former employees alleging that its AI systems were used for espionage purposes. On October 8, 2024, Anthropic announced an agreement with the United States Federal Trade Commission (FTC) to resolve allegations that Anthropic's AI models"
+  },
+  {
+    "question": "What was the value of Alibaba's IPO on the New York Stock Exchange in September 2014?",
+    "reference": "US$231 billion, which was the largest IPO in world history at that time.",
+    "generated": "The company raised $1.5 billion at a pre-money valuation of around US$6 billion, and it has since increased its post-money valuation to over $10 billion. In December 2015, Alibaba announced that it had reached an agreement with the Chinese government for a further $2.8 billion investment into the country. On February 20, 2016, Alibaba agreed to pay $3.9 billion to settle a lawsuit filed by investors alleging that Alibaba misled them about how much"
+  },
+  {
+    "question": "What is the definition of the 1+6+N restructuring plan announced by Alibaba in March 2023?",
+    "reference": "A restructuring that reorganized Alibaba's business structure into six independently run entities with their own CEOs and boards of directors, capable of seeking independent fundraising and market listings.",
+    "generated": "The restructuring plan was described as a \"comprehensive\" and \"innovative\" approach to improving its business performance. It included several initiatives aimed at reducing costs, increasing efficiency, streamlining operations, and enhancing customer service. In April 2024, Alibaba agreed to pay $1 billion for controlling stake in Tencent Holdings Ltd., which owns an additional 40% stake in Taobao Group Co. (TBC). On May 10, 2024, Alibaba agreed to acquire a further"
+  },
+  {
+    "question": "How much storage space does each LoRA adapter require compared to a complete model?",
+    "reference": "Each adapter requires less than one percent of the storage space of a complete model.",
+    "generated": "The size of the data set is typically limited by the amount of memory available on the device. For example, if you have 10 billion tokens in your dataset and want to store them all into RAM (RAM = 1024 bytes), then it would take around 1 gigabyte per token for an adapter to fit within that capacity. This means that while some models may be able to run on less than one gigabyte of RAM, they will often struggle with larger datasets or when running across multiple GPUs"
+  },
+  {
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "generated": "It's a process in which humans evaluate the performance of AI systems. The goal is to improve them by making it easier for them to learn and perform better, so that they can be more effective at their tasks. RLHF involves two steps: training an agent to behave like humans; then evaluating its behavior against human feedback. This allows agents to adapt to new situations without having to change how they operate or train themselves. In practice, this requires large amounts of data about the environment, including both natural"
+  },
+  {
+    "question": "Why is explicitly defining a reward function challenging in classical reinforcement learning?",
+    "reference": "Explicitly defining a reward function that accurately approximates human preferences is challenging because human preferences are complex and difficult to quantify into a single numerical signal.",
+    "generated": "Because the definition of an objective function can be ambiguous. In RLHF, this ambiguity arises because the goal may not always correspond to what was originally defined as the optimal policy (or even if it does). This means that when the model's behavior changes from one state to another, its output might change too. For example, consider the following two examples: The first example shows how the agent could learn to avoid certain actions by avoiding them altogether; the second example illustrates how the agent learned to choose which"
+  },
+  {
+    "question": "How is the reward model trained in RLHF?",
+    "reference": "The reward model is trained by replacing the final layer of a pre-trained model with a randomly initialized regression head, and then training it on human preference comparison data using a cross-entropy loss function to predict which responses humans prefer.",
+    "generated": "The reward model learns to predict future outcomes based on past experiences. This allows it to learn how to adapt its behavior according to new information and avoid making mistakes that lead to undesirable consequences, such as overconfidence or impulsive action. In contrast with traditional reinforcement learning (RL), which uses a human's feedback signal for training, RLHF relies solely on external rewards generated by the agent during training. As an example of this approach, consider the following sequence of actions from a human-like agent: \""
+  },
+  {
+    "question": "What are the main types of direct alignment algorithms mentioned as alternatives to RLHF?",
+    "reference": "The mentioned direct alignment algorithms are Direct Preference Optimization (DPO), Identity Preference Optimization (IPO), and Kahneman-Tversky Optimization (KTO).",
+    "generated": "The most important ones are: Q-learning, policy gradient (QG), and reinforcement learning. In Q-learning, a model is trained by maximizing an objective function that depends on its parameters. This can be done either directly or through backpropagation. A more general approach called \"policy optimization\" was introduced in 2017. It uses a reward function instead of the original objective function. Policy Optimization has been applied to many AI systems such as chatbots, autonomous driving vehicles, and medical"
+  },
+  {
+    "question": "What is the difference between reinforcement learning from human feedback (RLHF) and reinforcement learning from AI feedback (RLAIF)?",
+    "reference": "While RLHF relies on training a preference model from human feedback, RLAIF relies on training a preference model from automatically generated AI feedback, such as feedback based on conformance to constitutional principles in Anthropic's constitutional AI.",
+    "generated": "RLHF uses a policy model to learn how humans will behave. RLAIF uses an action-value model that learns what actions are appropriate for certain situations, based on human feedback about those behaviors. The goal of RLHF is to train a policy model such as GPT-3 or Qwen2 to perform specific tasks in order to achieve goals. In contrast, RLHF requires only a reward function, which can be computed by any algorithm. This allows it to scale up quickly without requiring large"
+  },
+  {
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "generated": "The model's response is not necessarily the most accurate representation of its input. This can be seen by comparing how well a trained model responds to human feedback with that generated from an untrained model, where the latter has been fine-tuned on data collected during training. In this case, the trained model generates more correct answers than it produces incorrect ones (i.e., \"correct\" or \"incorrect\"). However, when asked for information about the source of a given text, the trained"
+  },
+  {
+    "question": "What is Mixture of Experts (MoE) and what type of machine learning technique is it?",
+    "reference": "Mixture of Experts is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions. It represents a form of ensemble learning.",
+    "generated": "It's a variant on the original MoE. The model can be trained to learn from examples, or by directly predicting the output given an input. In this case, each example has two components: one that predicts whether the agent will choose \"yes\" or \"no\", while another component indicates which action would lead to its reward being higher than zero. This allows for more flexibility in how agents behave when they are uncertain about their actions. For instance, if the agent chooses \"yes,\" then it"
+  },
+  {
+    "question": "How does the standard MoE combine expert outputs to produce a single output?",
+    "reference": "The standard MoE produces a single output by combining expert outputs according to weights using the formula: f(x) = Σi w(x)i fi(x), which is a weighted sum of expert outputs.",
+    "generated": "The experts are combined into an \"expert-pool\" and then used as part of the final model. This is done by first aggregating all the experts' predictions, which can be done in parallel on multiple GPUs or CPUs. Then each expert's prediction is weighted according to its importance (the higher the weight, the more important it is). Finally, the weights are summed up across the experts so that they sum up to one. In this way, the experts are grouped together into"
+  },
+  {
+    "question": "What was the application domain for the meta-pi network described in the text?",
+    "reference": "The meta-pi network was used for classifying phonemes in speech signals from 6 different Japanese speakers (2 females and 4 males), where each expert was a time-delayed neural network operating on mel spectrograms.",
+    "generated": "The Meta Pi model is a large language model that can be used to train models like GPT-3, PyGPT and ChatGPT. It has been trained on over 100 billion tokens of text from Wikipedia articles (including books, movies, music, sports events, and more). In December 2026, Google announced it would integrate Meta's AI into its search results as part of an effort to improve how users find information online. On February 14, 2026, Google released Meta's API"
+  },
+  {
+    "question": "List the companies and models mentioned as examples of MoE implementations.",
+    "reference": "Companies and models mentioned include: Google Brain (sparsely-gated MoE), Google (GShard, GLaM, Palm-540B), Meta AI (NLLB-200), Mistral AI (Mixtral 8x7B), Databricks (DBRX), Nvidia (Nemotron family, Kimi K3), and DeepSeek.",
+    "generated": "The list is given below, with each company listed in alphabetical order by name (with a few exceptions). Each model was trained on one billion tokens from the training data set. This number may be too large for some applications; it can also lead to overfitting if used incorrectly. For example, when applied to text-to-image generation, this could result in an overly optimistic estimate that the generated image matches human input. In practice, most systems are fine-tuned on only a small"
+  },
+  {
+    "question": "Determine what training method alternatives to gradient descent are available for MoE models?",
+    "reference": "The expectation-maximization algorithm is mentioned as an alternative to gradient descent for training MoE, similar to how Gaussian mixture models are trained. During the expectation step, burden for explaining data points is assigned over experts, and during the maximization step, experts and gates are trained.",
+    "generated": "The most commonly used training methods include the following. They can be combined in a variety of ways, including reinforcement learning (RL), policy optimization (PO), or supervised learning (SL). RL is an unsupervised approach that uses human feedback and expert advice to train agents on large datasets. It has been shown to perform better than any other model at many tasks. In contrast, PO is a supervised approach where humans provide labels such as \"good\" or \"bad\". This allows experts to evaluate whether the"
+  },
+  {
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "generated": "The term \"alignment\" refers to the process of selecting and evaluating a model's behavior in order for it to be useful, safe, or effective. In other words, an AI system must have some level of human-like intelligence before being used by humans. This can occur through various mechanisms such as reinforcement learning (RL), which involves training a machine to behave like humans without requiring explicit instructions from them. Other than RL, there are several types of alignment that may exist within an AI system. These"
+  }
+]
