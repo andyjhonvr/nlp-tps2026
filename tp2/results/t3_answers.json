@@ -107,7 +107,7 @@
   {
     "question": "Define MedGemma and describe its intended purpose.",
     "reference": "MedGemma is a variant of Gemma designed for medical applications like image analysis, based on Gemma 3, available in 4B and 27B sizes.",
-    "generated": "MedGemma is a tool that allows users to create customizable, interactive visualizations of data from large datasets such as Google Analytics or other analytics platforms. It can be used for analyzing complex relationships between different variables in order to make more informed decisions about the company's marketing strategies."
+    "generated": "MedGemma is a tool that allows users to create customizable, interactive visualizations of data from large datasets such as Google Maps or Amazon Alexa. It can be used for various tasks including analyzing traffic patterns in real-time, predicting weather conditions, generating recommendations based on user preferences, and providing insights into the world around us."
   },
   {
     "question": "What programming languages does CodeGemma support?",
@@ -162,7 +162,7 @@
   {
     "question": "What does the term 'reinforcement learning' refer to in the context of DeepMind's early work?",
     "reference": "Reinforcement learning is an algorithm that learns from experience using only raw pixels as data input. DeepMind used this approach to train AI systems to play video games and board games by learning from the outcomes of their actions.",
-    "generated": "Reinforcement Learning is a type of machine learning algorithm that uses reinforcement learning algorithms to learn from experience and make decisions based on past data. It involves using feedback loops, where an agent learns how best to respond to new inputs by adjusting its behavior accordingly."
+    "generated": "Reinforcement Learning is a type of machine learning algorithm that uses reinforcement learning algorithms to learn from experience and make decisions based on previous data. It involves using feedback loops, where an agent learns how best to respond to new inputs by adjusting its behavior accordingly."
   },
   {
     "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
@@ -192,7 +192,7 @@
   {
     "question": "What is reinforcement learning from human feedback (RLHF)?",
     "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
-    "generated": "Reinforcement Learning from Human Feedback (RLHF) is a type of machine learning algorithm that uses human feedback to improve the model's performance. RLHF models use data collected through surveys, interviews and other forms of feedback to learn how humans respond to certain tasks or situations in order to make better decisions."
+    "generated": "Reinforcement Learning from Human Feedback (RLHF) is a type of machine learning algorithm that uses human feedback to improve the model's performance. It involves using data collected through surveys or other forms of feedback, such as questions and answers, to train the model with new information about how humans interacted with it."
   },
   {
     "question": "Why is explicitly defining a reward function challenging in classical reinforcement learning?",
@@ -227,7 +227,7 @@
   {
     "question": "How does the standard MoE combine expert outputs to produce a single output?",
     "reference": "The standard MoE produces a single output by combining expert outputs according to weights using the formula: f(x) = Σi w(x)i fi(x), which is a weighted sum of expert outputs.",
-    "generated": "The standard MoE combines experts into one output by using an algorithm that takes as input two sets of experts, each with their own set of parameters. This allows for more efficient and accurate predictions than traditional methods such as maximum likelihood or Bayesian inference."
+    "generated": "The standard MoE combines experts into one output, by using an algorithm that takes each expert's prediction as input and then uses the results of this process to generate a new opinion. This is done in two steps: first, it calculates the average score for each expert; secondly, it applies the scores from all experts to create a final consensus decision."
   },
   {
     "question": "What was the application domain for the meta-pi network described in the text?",
