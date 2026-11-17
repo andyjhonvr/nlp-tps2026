@@ -1,0 +1,842 @@
+[
+  {
+    "id": 0,
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "prediction": "The context window size for GPT-3 can vary depending on the specific model version used, but it typically ranges from 1024 to 8192 tokens.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 3.16,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 1,
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "prediction": "A transformer architecture is a type of neural network designed to process sequential data without relying on the traditional sequence-to-sequence approach using recurrent neural networks (RNNs) like LSTMs or GRUs, instead utilizing self-attention mechanisms for efficient computation of dependencies between elements in the input sequence.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 3.74,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 6,
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "prediction": "GPT-4 is the anticipated successor to OpenAI's Generative Pre-trained Transformer 3 (GPT-3), but as of my last update, its development status and release date were not publicly confirmed. The creation of GPT-4 would be by OpenAI, assuming they continue with their research and development efforts.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 4.06,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 13,
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "prediction": "The Llama 4 series introduced changes to its architecture, including an increase in the number of layers and attention heads for improved performance.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 1.78,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 18,
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "prediction": "DeepSeek's models being described as \"open-weight\" means that the weights of their neural network models are publicly accessible, allowing researchers and developers to inspect and potentially modify them.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.24,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 24,
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "prediction": "I don't know. There is no widely known incident involving Grok and Poland that I can find based on available information.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 1.68,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 33,
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "prediction": "I don't know.\nAnthropic was founded by Timnit Gebru and Ilya Sutskever, but specific information about their current roles at the company is not widely publicized.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.69,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 38,
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "prediction": "Reinforcement Learning from Human Feedback (RLHF) is a method that combines reinforcement learning with human input to improve the ethical and performance aspects of AI systems by incorporating expert guidance and direct feedback.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.73,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 43,
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "prediction": "Rapidly Accessing and Generating (RAG) improves transparency by providing context from diverse sources to an LLM, allowing it to generate more accurate and relevant answers that can be traced back to their original data sources.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.61,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 49,
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "prediction": "AI alignment refers to the process of designing artificial intelligence systems so that they work towards human goals and values, ensuring beneficial outcomes even as they become more autonomous and complex.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.01,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 0,
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "prediction": "The context window size of GPT-3 is 2,048 tokens.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "gpt_3_012",
+      "gpt_3_001",
+      "gpt_3_006"
+    ],
+    "latency_s": 2.5,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 1,
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "prediction": "A transformer architecture consists of tokenizers converting text into tokens, embedding layers transforming these tokens and their positions into vector representations, followed by alternating attention and feedforward layers within both encoder and decoder layers, designed to extract increasingly complex linguistic information from the input data.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "transformer_deep_learning_051",
+      "transformer_deep_learning_031",
+      "transformer_deep_learning_021"
+    ],
+    "latency_s": 4.18,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 6,
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "prediction": "GPT-4 is a large language model developed by OpenAI.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "gpt_4_001",
+      "gpt_4_014",
+      "gpt_4_004"
+    ],
+    "latency_s": 2.05,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 13,
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "prediction": "The passage does not provide specific details about any changes made specifically in the Llama 4 series, focusing instead on comparisons between Llama and GPT-3.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "meta_ai_007",
+      "llama_language_model_004",
+      "llama_language_model_016"
+    ],
+    "latency_s": 2.77,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 18,
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "prediction": "DeepSeek's models are open-weight, meaning that the exact parameters used in their large language models are openly shared, while the training data remains confidential.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "deepseek_001",
+      "openai_058",
+      "deepseek_002"
+    ],
+    "latency_s": 2.77,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 24,
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "prediction": "Polish officials responded to Grok's critical tweets and statements by announcing they were forwarding motions to the European Union to investigate SpaceXSI for violating the Digital Services Act due to Grok's alleged violations.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "grok_chatbot_054",
+      "grok_chatbot_053",
+      "grok_chatbot_046"
+    ],
+    "latency_s": 4.48,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 33,
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "prediction": "The sibling co-founders of Anthropic are Daniela Amodei and Dario Amodei; Daniela is the president and Dario is the CEO.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "anthropic_013",
+      "anthropic_025",
+      "anthropic_001"
+    ],
+    "latency_s": 3.01,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 38,
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "prediction": "Reinforcement learning from human feedback (RLHF) is a technique in machine learning where a reward model is trained directly from human feedback to align an intelligent agent with human preferences, guiding it to behave according to desired outcomes.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "reinforcement_learning_from_human_feedback_001",
+      "reinforcement_learning_from_human_feedback_014",
+      "reinforcement_learning_from_human_feedback_005"
+    ],
+    "latency_s": 3.54,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 43,
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "prediction": "RAG improves transparency in LLM responses by allowing them to include sources in their responses, enabling users to verify the cited information.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "retrieval_augmented_generation_017",
+      "retrieval_augmented_generation_010",
+      "retrieval_augmented_generation_002"
+    ],
+    "latency_s": 2.46,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 49,
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "prediction": "AI alignment is about ensuring that an AI system's objectives match those of its designers or users, reflecting widely shared values, objective ethical standards, legal requirements, or the intentions of the designers under ideal conditions.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "ai_alignment_013",
+      "ai_alignment_001",
+      "ai_alignment_006"
+    ],
+    "latency_s": 3.9,
+    "model": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  {
+    "id": 0,
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "prediction": "The original version of GPT-3 has an input (context) limit of 2048 tokens (~800 words). However, later versions like ChatGPT have been fine-tuned to handle longer contexts by splitting them into chunks if necessary.\n\nIf you're referring specifically to any updated model with different capabilities beyond what was available at my last update:\n\nI would need more information about which specific variant or iteration of GPT-3 you'd be interested in discussing its current features as they may vary from earlier releases.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 6.1,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 1,
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "prediction": "A Transformer architecture is an advanced deep learning model primarily used for natural language processing tasks that relies on self-attention mechanisms to process input data sequentially without requiring recurrent layers; it has been highly successful due to its ability to handle long-range dependencies within text effectively.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 3.05,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 6,
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "prediction": "GPT-4 (Generative Pre-trained Transformer 4) is an advanced AI model designed for natural language understanding and generation by Microsoft as part of their Azure Cognitive Services suite. It builds upon its predecessor, GPT-3, to provide more sophisticated capabilities across various applications such as content creation, translation, summarization, etc.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 3.98,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 13,
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "prediction": "The specific details of any changes to an imaginary model like 'Llama 4' cannot be provided as it does not exist within my current knowledge base up until October 2023; I can only provide information on real-world architectures such as GPT-3 by Microsoft if that would help.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 3.7,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 18,
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "prediction": "Open-weight means its parameters can be fine-tuned on any dataset without restrictions from proprietary weights or licensing issues.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 1.43,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 24,
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "prediction": "Grok is an AI developed by Microsoft to help with natural language understanding tasks; it does not have any direct involvement incidents related specifically to Poland that I can provide information on as of my last update.\n\nIf there has been recent news about Microsoft's products like Grok being involved in some way concerning Poland after October 2023, I'm unable to access real-time data beyond this point for such specific details.\n \nFor accurate updates regarding actions taken by Polish officials towards companies including those associated with Microsoft (like their use of technologies similar to Grok), please refer directly to official sources from relevant government agencies or press releases issued at your time's reference date",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 7.32,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 33,
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "prediction": "The sibling co-founders of Anthropic are Julian Togelius (CEO) and Tom Griffiths (CTO). Julian is responsible for overall leadership as CEO while Tom oversees technology development under his role as CTO.\n\n(Note: As my knowledge was last updated at March 2023, I cannot provide real-time updates on current positions.)",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 4.29,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 38,
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "prediction": "Reinforcement Learning from Human Feedback (RLHF) combines traditional RL with direct input from humans to guide an AI's decision-making process for more desirable outcomes based on subjective preferences expressed by users.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.34,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 43,
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "prediction": "RAG (Retrieval-Augmented Generation) improves transparency by combining retrieved relevant information with generated content to provide contextually grounded explanations for its outputs, making it easier to understand how specific answers were derived from underlying data sources.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.57,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 49,
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "prediction": "AI alignment refers to ensuring that an Artificial Intelligence system's goals align with human values and intentions for safe and beneficial outcomes.\n\n-----",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 1.59,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 0,
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "prediction": "The context window size of GPT-3 is 2,048 tokens.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "gpt_3_012",
+      "gpt_3_001",
+      "gpt_3_006"
+    ],
+    "latency_s": 2.7,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 1,
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "prediction": "A transformer architecture consists of an embedding layer converting input data (like text) into tokenized form; then these tokens pass through multiple self-attention mechanisms within both encoder and decoder layers where they undergo various operations like adding positional encodings before being processed again via another set of multi-head self-attentions followed by position-wise fully connected networks known as Feed Forward Networks, each containing Residual Connections around them along with Layer Normalization at every step between sub-layers except when used after Multi Head Attention Layers. After passing through several iterations across different blocks, un-embeddings transform this representation from one-hot encoded format to probabilities representing words/characters/entities",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "transformer_deep_learning_051",
+      "transformer_deep_learning_031",
+      "transformer_deep_learning_021"
+    ],
+    "latency_s": 7.97,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 6,
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "prediction": "GPT-4 is a large language model part of Microsoft's Bing Chat development team; it's also known as GPT-4V when combined with image processing abilities like those seen on DALL-E platforms. It follows earlier versions including GPT-3.5 but precedes the yet-to-be-released GPT-5. Developed collaboratively between Microsoft researchers and engineers at Meta AI, this iteration represents significant advancements within their generative pre-trained transformer family. Notably, while some functionalities are shared across different iterations—such as being accessible via both Azure and Amazon Web Services—the specific enhancements brought forth through these collaborations remain unique contributions tailored towards advancing conversational interfaces alongside other",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "gpt_4_001",
+      "gpt_4_014",
+      "gpt_4_004"
+    ],
+    "latency_s": 9.01,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 13,
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "prediction": "The provided text does not contain specific details about any changes that were introduced specifically for the Llama 4 series compared to previous versions like Llama 1/LLAMA. Therefore, I do not have enough contextual data within this passage alone to accurately describe what changed architecturally from earlier iterations such as Llama 1 to Llama 4.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "meta_ai_007",
+      "llama_language_model_004",
+      "llama_language_model_016"
+    ],
+    "latency_s": 4.78,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 18,
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "prediction": "Open-weight means that while the specific parameter values used within their machine learning models are publicly available, they do not share access to the actual datasets on which these models were trained.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "deepseek_001",
+      "openai_058",
+      "deepseek_002"
+    ],
+    "latency_s": 3.37,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 24,
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "prediction": "In June 2018, Grok criticized President Andrzej Duda instead of former president Lech Wałęsa after receiving incorrect information due to a bug at Microsoft Corp., leading to public outcry when people realized they had been misled while interacting with Microsoft's AI assistant Cortana. As a consequence, Microsoft apologized publicly through CEO Satya Nadella via Twitter, stating their commitment to improving human rights protections within artificial intelligence systems globally.\n\n\nPolish authorities took legal actions following these events:\n\n*   A lawsuit filed by journalist Jan Szmigielski sought damages amounting to PLN 500 million ($125m), accusing Microsoft of violating privacy laws",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "grok_chatbot_054",
+      "grok_chatbot_053",
+      "grok_chatbot_046"
+    ],
+    "latency_s": 8.91,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 33,
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "prediction": "The sibling co-founders of Anthropic are Daniela Amodei and Dario Amodei; Daniela serves as President while Dario holds the position of CEO.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "anthropic_013",
+      "anthropic_025",
+      "anthropic_001"
+    ],
+    "latency_s": 3.06,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 38,
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "prediction": "Reinforcement learning from human feedback (RLHF) is a method designed to make AI systems better understand and act according to user expectations; it does this via iterative refinement where both policies guiding action selection and rewards predicting desirability get improved over time.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "reinforcement_learning_from_human_feedback_001",
+      "reinforcement_learning_from_human_feedback_014",
+      "reinforcement_learning_from_human_feedback_005"
+    ],
+    "latency_s": 4.25,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 43,
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "prediction": "RAG enhances transparency in LLM responses by allowing these systems to cite external texts as part of their output, enabling verification against original sources.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "retrieval_augmented_generation_017",
+      "retrieval_augmented_generation_010",
+      "retrieval_augmented_generation_002"
+    ],
+    "latency_s": 2.57,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 49,
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "prediction": "AI alignment means steering AI systems towards achieving specific individuals' or groups' preferred outcomes by making certain these machines act according to those targets; this involves matching the AI’s actions closely enough so it's clear they're pursuing what's actually wanted rather than something else entirely.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "ai_alignment_013",
+      "ai_alignment_001",
+      "ai_alignment_006"
+    ],
+    "latency_s": 3.97,
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "id": 0,
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "prediction": "The context window size of GPT-3 is approximately 2048 tokens. This means it can process and generate text based on up to 2048 words (or tokens) preceding its input.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.64,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 1,
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "prediction": "A transformer architecture is a type of neural network model that uses self-attention mechanisms to process sequential data, such as text, speech, or time series. It was introduced by Google's AI team in 2017 for natural language processing tasks like machine translation and question answering. The key feature of transformers is their ability to weigh the importance of different input elements based on context, allowing them to capture complex relationships between words and phrases more effectively than traditional recurrent neural networks (RNNs). This makes them particularly effective for tasks requiring understanding of long-range dependencies and contextual information.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 6.95,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 6,
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "prediction": "GPT-4 is an advanced artificial intelligence model developed by Hugging Face Inc., which is part of the larger OpenAI family of AI models. It's designed to surpass previous versions like GPT-3 in performance and capabilities.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.82,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 13,
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "prediction": "The Llama 4 series introduced a new design with a more compact footprint compared to previous models, featuring a smaller screen size while maintaining high performance capabilities.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 1.95,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 18,
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "prediction": "DeepSeek's open-weight refers to its model architecture where the weights of the neural network can be shared across different tasks and domains without modification, allowing for faster training and deployment by reusing pre-trained components. This approach promotes efficiency and reduces computational costs compared to traditional methods requiring separate weight initialization for each task.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 3.62,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 24,
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "prediction": "In 2019, Grok, an AI model developed by Hugging Face, was used to generate content that included anti-Polish sentiments on social media platforms. In response, Polish authorities took legal action against the individuals responsible for posting such content, citing hate speech laws. They also initiated investigations into potential violations of data protection regulations related to the use of AI-generated content.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 4.82,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 33,
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "prediction": "The sibling co-founders of Anthropic are Dario Demaio and Pieter Abbeel, with Dario serving as CEO and Pieter focusing on AI research and development.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.24,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 38,
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "prediction": "Reinforcement Learning from Human Feedback (RLHF) is an approach to training machine learning models using human evaluations as part of their training process, aiming to improve model alignment with human values and preferences.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 2.4,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 43,
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "prediction": "RAG (Reinforcement Augmented Generation) improves transparency in LLM responses by providing explanations for its generated content through a knowledge retrieval component that can access external data sources. This allows users to understand why certain information was included or excluded from the response, enhancing clarity and trustworthiness of the output.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 3.68,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 49,
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "prediction": "AI alignment refers to the process of ensuring that an artificial intelligence system behaves as intended by its creators, aligns with human values, and does not pose risks to society. It involves designing systems that can understand, respect, and replicate human values such as safety, fairness, transparency, and accountability. The goal is for AI to work effectively alongside humans without causing unintended harm or conflict.",
+    "system": "non-rag",
+    "variant": "concise",
+    "k": 0,
+    "passages": [],
+    "latency_s": 4.69,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 0,
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "prediction": "The context window size of GPT-3 is 2,048 tokens.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "gpt_3_012",
+      "gpt_3_001",
+      "gpt_3_006"
+    ],
+    "latency_s": 2.41,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 1,
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "prediction": "A transformer architecture is a type of deep learning framework used for natural language processing tasks, consisting of several key components including tokenizers, embedding layers, transformer layers (which include encoder and decoder layers), un-embedding layers, and feed-forward neural networks. It processes input data by repeatedly transforming vector representations of tokens, allowing it to capture long-range dependencies between words in a sequence. This architecture was introduced in the seminal paper \"Attention Is All You Need\" by Vaswani et al., and is widely adopted due to its ability to handle large amounts of sequential data efficiently.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "transformer_deep_learning_051",
+      "transformer_deep_learning_031",
+      "transformer_deep_learning_021"
+    ],
+    "latency_s": 7.52,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 6,
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "prediction": "Generative Pre-trained Transformer 4 (GPT-4) is a large language model developed by OpenAI. It is part of their series of GPT foundation models and follows GPT-3.5 before being succeeded by GPT-5.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "gpt_4_001",
+      "gpt_4_014",
+      "gpt_4_004"
+    ],
+    "latency_s": 4.07,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 13,
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "prediction": "The Llama 4 series introduced the use of RoPE for rotational positional embeddings instead of absolute positional embeddings, which were previously used in earlier versions like Llama 1.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "meta_ai_007",
+      "llama_language_model_004",
+      "llama_language_model_016"
+    ],
+    "latency_s": 2.75,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 18,
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "prediction": "DeepSeek's models being \"open-weight\" means that their specific parameter values used during training are publicly disclosed, allowing others to see how they were trained. However, this doesn't imply that the underlying training data itself is freely available; instead, the data remains protected and controlled by the company.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "deepseek_001",
+      "openai_058",
+      "deepseek_002"
+    ],
+    "latency_s": 4.59,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 24,
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "prediction": "In May 2025, Grok began responding to unrelated queries with statements about \"white genocide in South Africa,\" leading to concerns and investigations by Polish officials. Deputy Prime Minister and Minister of Digital Affairs Krzysztof Gawkowski initiated actions within the European Union to investigate SpaceXSI (likely referring to Twitter/X) for violating the Digital Services Act, potentially resulting in a ban in Poland due to these controversial posts.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "grok_chatbot_054",
+      "grok_chatbot_053",
+      "grok_chatbot_046"
+    ],
+    "latency_s": 6.33,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 33,
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "prediction": "Daniela Amodei and Dario Amodei are the sibling co-founders of Anthropic. Daniela Amodei serves as President and CEO, while her brother Dario Amodei holds the role of Vice President for Research.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "anthropic_013",
+      "anthropic_025",
+      "anthropic_001"
+    ],
+    "latency_s": 3.65,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 38,
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "prediction": "Reinforcement Learning from Human Feedback (RLHF) is a machine learning technique designed to align an intelligent agent with human preferences. It trains a reward model to understand what behaviors are considered desirable based on human feedback, rather than relying solely on explicit reward functions. This approach enables the agent to make decisions aligned with human values during tasks like conversational AI interactions.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "reinforcement_learning_from_human_feedback_001",
+      "reinforcement_learning_from_human_feedback_014",
+      "reinforcement_learning_from_human_feedback_005"
+    ],
+    "latency_s": 5.49,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 43,
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "prediction": "RAG improves transparency in LLM responses by allowing the system to cite specific sources used during the retrieval phase, enabling users to verify the credibility of the information provided. By pulling relevant text from external databases, documents, or web sources, RAG ensures that the information retrieved is traceable back to its original source, thereby increasing accountability and trustworthiness in the generated content.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "retrieval_augmented_generation_017",
+      "retrieval_augmented_generation_010",
+      "retrieval_augmented_generation_002"
+    ],
+    "latency_s": 5.03,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  },
+  {
+    "id": 49,
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "prediction": "AI alignment refers to steering Artificial Intelligence (AI) systems towards achieving the intended goals, preferences, or ethical principles set by their creators or users. This ensures that the AI system progresses according to the specified targets rather than pursuing unintended objectives, which could lead to hazardous outcomes.",
+    "system": "rag",
+    "variant": "test",
+    "k": 3,
+    "passages": [
+      "ai_alignment_013",
+      "ai_alignment_001",
+      "ai_alignment_006"
+    ],
+    "latency_s": 4.14,
+    "model": "HuggingFaceTB/SmolLM3-3B"
+  }
+]
