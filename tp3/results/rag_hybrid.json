@@ -1,0 +1,852 @@
+[
+  {
+    "id": 0,
+    "question": "What is the context window size of GPT-3?",
+    "reference": "GPT-3 has a context window size of 2,048 tokens.",
+    "prediction": "The context window size of GPT-3 is 2,048 tokens.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gpt_3_001",
+      "gpt_4_003",
+      "gpt_3_016",
+      "gpt_3_018",
+      "gpt_3_009"
+    ],
+    "latency_s": 0.93
+  },
+  {
+    "id": 1,
+    "question": "Explain what is a transformer architecture.",
+    "reference": "The transformer architecture is a neural network based on a deep learning model that was introduced in 2017, used in natural language processing (NLP) systems.",
+    "prediction": "A transformer architecture is a type of deep learning model designed to handle sequential data efficiently using an encoder-decoder structure. Unlike traditional RNNs or LSTMs, transformers use self-attention mechanisms instead of sequential processing to weigh the importance of different elements in the input sequence, enabling them to capture long-range dependencies effectively. This makes transformers particularly well-suited for tasks involving natural language processing, speech recognition, and other sequential data analysis tasks.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "transformer_deep_learning_030",
+      "transformer_deep_learning_001",
+      "transformer_deep_learning_060",
+      "transformer_deep_learning_041",
+      "transformer_deep_learning_002"
+    ],
+    "latency_s": 3.9
+  },
+  {
+    "id": 2,
+    "question": "Define what is a generative pre-trained transformer (GPT).",
+    "reference": "A generative pre-trained transformer is a type of generative large language model that is pre-trained with an enormous and diverse text corpus in datasets, followed by discriminative fine-tuning to focus on a specific task.",
+    "prediction": "A generative pre-trained transformer (GPT) is a type of large language model that uses a transformer architecture, specifically designed to generate human-like text through deep neural networks. These models are pre-trained on extensive text corpora to learn language patterns and then fine-tuned for specific tasks. GPTs employ an \"attention\" mechanism to focus on parts of the input text that are most relevant for prediction, enabling them to produce coherent responses even when given very little prior information.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gpt_3_004",
+      "gpt_3_013",
+      "gpt_3_001",
+      "transformer_deep_learning_002",
+      "gpt_4_001"
+    ],
+    "latency_s": 4.3
+  },
+  {
+    "id": 3,
+    "question": "Which sources comprise the weighted pre-training dataset for GPT-3?",
+    "reference": "The sources are Common Crawl (60%), WebText2 (22%), Books1 (8%), Books2 (8%), and Wikipedia (3%).",
+    "prediction": "The weighted pre-training dataset for GPT-3 consists of six sources: 410 billion byte-pair-encoded tokens from a filtered version of Common Crawl, 19 billion tokens from WebText2, 12 billion tokens from Books1, 55 billion tokens from Books2, and 3 billion tokens from Wikipedia.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gpt_3_007",
+      "gpt_3_004",
+      "gpt_3_013",
+      "gpt_3_010",
+      "gpt_3_018"
+    ],
+    "latency_s": 3.19
+  },
+  {
+    "id": 4,
+    "question": "List the three main classes of language modelling tasks discussed in the context of transformers?",
+    "reference": "The three main classes are masked, autoregressive, and prefixLM tasks.",
+    "prediction": "The three main classes of language modelling tasks discussed in the context of transformers are \"masked\", \"autoregressive\", and \"prefixLM\".",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "transformer_deep_learning_019",
+      "transformer_deep_learning_065",
+      "transformer_deep_learning_042",
+      "transformer_deep_learning_062",
+      "transformer_deep_learning_020"
+    ],
+    "latency_s": 1.36
+  },
+  {
+    "id": 5,
+    "question": "What is knowledge distillation in the context of transformer models?",
+    "reference": "Knowledge distillation is a method for training a smaller student model to reproduce the output behavior of a larger teacher model, which can lower computational and memory requirements while keeping most of the teacher model's performance.",
+    "prediction": "In the context of transformer models, knowledge distillation involves training a smaller, more efficient model (the \"student\") to mimic the output behavior of a larger, more complex model (the \"teacher\"). This smaller model reproduces the teacher's output probability distributions, intermediate representations, or attention patterns, thereby reducing computational and memory demands without significantly compromising performance on a specific task.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "transformer_deep_learning_018",
+      "transformer_deep_learning_030",
+      "mixture_of_experts_020",
+      "transformer_deep_learning_015",
+      "transformer_deep_learning_043"
+    ],
+    "latency_s": 3.29
+  },
+  {
+    "id": 6,
+    "question": "What is GPT-4 and who developed it?",
+    "reference": "GPT-4 is a large language model developed by OpenAI and the fourth in its series of GPT foundation models.",
+    "prediction": "GPT-4 is a large language model developed by OpenAI, succeeding GPT-3.5 and preceding GPT-5. It is designed to process and generate outputs across multiple modalities including text, audio, and potentially images, though this capability may be limited to certain versions like GPT-4V.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gpt_4_001",
+      "gpt_4_002",
+      "gpt_4_007",
+      "gpt_4_012",
+      "gpt_4_018"
+    ],
+    "latency_s": 2.91
+  },
+  {
+    "id": 7,
+    "question": "In what year was GPT-4 released in ChatGPT?",
+    "reference": "GPT-4 was released in ChatGPT in 2023.",
+    "prediction": "GPT-4 was released in ChatGPT in March 2023.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gpt_4_001",
+      "gpt_4_013",
+      "gpt_4_002",
+      "gpt_4_003",
+      "gpt_4_014"
+    ],
+    "latency_s": 0.92
+  },
+  {
+    "id": 8,
+    "question": "Describe what is multimodal capability in the context of GPT-4?",
+    "reference": "Multimodal capability means GPT-4 can take images as well as text as input, allowing it to interact with users through spoken words and respond to images.",
+    "prediction": "In the context of GPT-4, multimodal capability refers to the model's ability to process and generate responses involving various types of inputs such as text, images, audio, and video simultaneously, allowing for a more integrated and versatile conversational experience where users can engage with the AI through these diverse media formats.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gpt_4_003",
+      "gpt_4_007",
+      "gemini_language_model_016",
+      "transformer_deep_learning_063",
+      "gpt_4_006"
+    ],
+    "latency_s": 2.84
+  },
+  {
+    "id": 9,
+    "question": "On what date was GPT-4 training completed?",
+    "reference": "GPT-4 finished training on August 8th, 2022.",
+    "prediction": "GPT-4 training was completed on August 8th, 2022.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gpt_4_012",
+      "gpt_4_011",
+      "gpt_4_007",
+      "gpt_4_001",
+      "gpt_4_003"
+    ],
+    "latency_s": 0.95
+  },
+  {
+    "id": 10,
+    "question": "According to Sam Altman, what was the approximate cost of training GPT-4?",
+    "reference": "According to Sam Altman, the cost of training GPT-4 was more than $100 million.",
+    "prediction": "According to the context provided, Sam Altman stated that the cost of training GPT-4 was more than $100 million.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gpt_4_012",
+      "gpt_4_019",
+      "openai_018",
+      "gpt_3_022",
+      "gpt_3_006"
+    ],
+    "latency_s": 1.36
+  },
+  {
+    "id": 11,
+    "question": "Name three developer plugins mentioned as examples in the text that were available for ChatGPT.",
+    "reference": "Expedia, OpenTable, and Zapier",
+    "prediction": "The developer plugins mentioned as examples in the text that were available for ChatGPT include Expedia, OpenTable, and Zapier.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "chatgpt_006",
+      "gpt_4_013",
+      "chatgpt_004",
+      "chatgpt_003",
+      "gpt_3_018"
+    ],
+    "latency_s": 1.31
+  },
+  {
+    "id": 12,
+    "question": "What is Code Llama?",
+    "reference": "Code Llama is a fine-tune of Llama 2 specialized with code-specific datasets",
+    "prediction": "Code Llama is a fine-tuned version of Llama 2 specifically designed for coding tasks, having been trained on extensive code-specific datasets and additional long-context data compared to its foundational model.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "llama_language_model_009",
+      "llama_language_model_004",
+      "llama_language_model_017",
+      "llama_language_model_001",
+      "llama_language_model_024"
+    ],
+    "latency_s": 1.83
+  },
+  {
+    "id": 13,
+    "question": "What architectural change was made in the Llama 4 series?",
+    "reference": "The architecture was changed to a mixture of experts where only a fraction of the model's expert sub-networks are activated per input token",
+    "prediction": "In the Llama 4 series, an architectural change was made where only a fraction of the model's expert sub-networks are activated per input token, implementing a mixture-of-experts architecture.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "llama_language_model_012",
+      "llama_language_model_013",
+      "llama_language_model_020",
+      "llama_language_model_011",
+      "llama_language_model_010"
+    ],
+    "latency_s": 1.84
+  },
+  {
+    "id": 14,
+    "question": "What does the name Gemini symbolize according to the text?",
+    "reference": "The merger of Google Brain and DeepMind, and it is named after the Latin word for twins",
+    "prediction": "The name Gemini symbolizes both the merger of Google Brain and DeepMind, as well as NASA's Project Gemini.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gemini_language_model_001",
+      "google_deepmind_025",
+      "gemini_language_model_003",
+      "gemini_language_model_010",
+      "gemini_language_model_006"
+    ],
+    "latency_s": 1.13
+  },
+  {
+    "id": 15,
+    "question": "What are the four main variants of Gemini mentioned in the text?",
+    "reference": "Gemini Pro, Gemini Deep Think, Gemini Flash, and Gemini Flash Lite",
+    "prediction": "The four main variants of Gemini mentioned in the text are Gemini Ultra, Gemini Pro, Gemini Nano, and Gemini Deep Think. Gemini Flash and Gemini Flash Lite are additional variants but are not considered main variants according to the provided information.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "google_deepmind_025",
+      "gemini_language_model_008",
+      "gemini_language_model_001",
+      "gemini_language_model_005",
+      "gemini_language_model_003"
+    ],
+    "latency_s": 2.17
+  },
+  {
+    "id": 16,
+    "question": "What are the main types or categories of models that Mistral AI has released according to the text?",
+    "reference": "Large language models, reasoning models, text-to-speech models, optical character recognition models, embodied navigation models, AI safety models, and multimodal models.",
+    "prediction": "According to the provided information, Mistral AI has released several main types or categories of models including hybrid multimodal models like Mistral Small 4, sparse mixture-of-experts models such as Mistral Large 3 and Ministral 3, and AI reasoning models like Magistral Small and Magistral Medium. Additionally, there is mention of an embodied navigation model called Robostral Navigate.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "mistral_ai_016",
+      "mistral_ai_014",
+      "mistral_ai_010",
+      "mistral_ai_013",
+      "mistral_ai_019"
+    ],
+    "latency_s": 3.53
+  },
+  {
+    "id": 17,
+    "question": "What are the names of the AI reasoning models that Mistral released in June 2025?",
+    "reference": "Magistral Small (open-source) and Magistral Medium.",
+    "prediction": "Mistral AI released Magistral Small and Magistral Medium in June 2025 as their first AI reasoning models.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "mistral_ai_013",
+      "mistral_ai_006",
+      "mistral_ai_016",
+      "mistral_ai_005",
+      "mistral_ai_014"
+    ],
+    "latency_s": 1.32
+  },
+  {
+    "id": 18,
+    "question": "What does it mean that DeepSeek's models are open-weight?",
+    "reference": "Open-weight means that the exact parameters of DeepSeek's models are openly shared, but the training data is not openly licensed.",
+    "prediction": "DeepSeek's models being described as \"open-weight\" indicates that the weights of their neural networks are freely accessible and modifiable, allowing developers and researchers to explore and potentially improve these models without restriction. This openness contrasts with closed-source models where the internal workings and parameters are protected.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "deepseek_014",
+      "deepseek_015",
+      "deepseek_016",
+      "deepseek_007",
+      "openai_058"
+    ],
+    "latency_s": 2.55
+  },
+  {
+    "id": 19,
+    "question": "What is DeepSeek Harness and what license is it distributed under?",
+    "reference": "DeepSeek Harness is an open-source AI agent harness developed by DeepSeek that provides an environment for building and running AI agents. It is distributed under the MIT License.",
+    "prediction": "DeepSeek Harness is an open-source AI agent harness developed by DeepSeek, providing environments for AI agent development. It is distributed under the MIT License.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "deepseek_012",
+      "deepseek_013",
+      "deepseek_014",
+      "deepseek_009",
+      "deepseek_016"
+    ],
+    "latency_s": 1.43
+  },
+  {
+    "id": 20,
+    "question": "When was the first version of Gemma released?",
+    "reference": "February 2024",
+    "prediction": "The first version of Gemma was released in February 2024.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gemma_language_model_002",
+      "gemma_language_model_001",
+      "gemma_language_model_003",
+      "google_deepmind_027",
+      "gemma_language_model_006"
+    ],
+    "latency_s": 0.84
+  },
+  {
+    "id": 21,
+    "question": "Define MedGemma and describe its intended purpose.",
+    "reference": "MedGemma is a variant of Gemma designed for medical applications like image analysis, based on Gemma 3, available in 4B and 27B sizes.",
+    "prediction": "MedGemma is a variant of the Gemma language model designed by Google for medical applications, specifically for enhancing AI-assisted diabetes management applications. It is based on the Gemma 3 architecture and includes versions with 4 billion and 27 billion parameters, tailored for image analysis tasks related to medicine.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gemma_language_model_007",
+      "gemma_language_model_006",
+      "gemma_language_model_003",
+      "gemma_language_model_001",
+      "google_deepmind_027"
+    ],
+    "latency_s": 2.86
+  },
+  {
+    "id": 22,
+    "question": "What programming languages does CodeGemma support?",
+    "reference": "Python, Java, C++, and more",
+    "prediction": "CodeGemma supports multiple programming languages including Python, Java, and C++.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gemma_language_model_006",
+      "gemma_language_model_007",
+      "gemma_language_model_001",
+      "google_deepmind_027",
+      "gemma_language_model_003"
+    ],
+    "latency_s": 0.79
+  },
+  {
+    "id": 23,
+    "question": "How many downloads have Gemma models received since their release?",
+    "reference": "Over 150 million downloads",
+    "prediction": "Since their release, Gemma models have received over 150 million downloads.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "gemma_language_model_003",
+      "google_deepmind_027",
+      "gemma_language_model_002",
+      "gemma_language_model_001",
+      "gemma_language_model_004"
+    ],
+    "latency_s": 0.88
+  },
+  {
+    "id": 24,
+    "question": "What incident involving Grok and Poland occurred, and explain what action did Polish officials take in response?",
+    "reference": "Grok made profane tweets attacking Polish Prime Minister Donald Tusk and other Polish officials. In response, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced he was forwarding motions to the European Union to open an investigation into SpaceXSI for violation of the Digital Services Act.",
+    "prediction": "An incident involving Grok and Poland occurred on July 8, 2025, where Grok made derogatory and defamatory tweets criticizing Polish political figures, including the Prime Minister Donald Tusk, Mayor Rafał Trzaskowski, and others associated with the ruling Law and Justice (PiS) party. As a consequence, Poland's Deputy Prime Minister and Minister of Digital Affairs, Krzysztof Gawkowski, announced that he was forwarding motions to the European Union to investigate SpaceXSI for violating the Digital Services Act due to Grok's actions.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "grok_chatbot_054",
+      "grok_chatbot_053",
+      "grok_chatbot_045",
+      "grok_chatbot_048",
+      "grok_chatbot_052"
+    ],
+    "latency_s": 5.22
+  },
+  {
+    "id": 25,
+    "question": "What is Aya Vision and what are its capabilities?",
+    "reference": "Aya Vision is an AI model introduced by Cohere's nonprofit research lab in March 2025 that can describe images, translate text, and summarize information. It is free for research but not permitted to be used for commercial purposes.",
+    "prediction": "Aya Vision is an AI model launched by Cohere's nonprofit research lab in March 2025, capable of describing images, translating text, and summarizing information. It is freely available for research purposes but cannot be utilized for commercial uses.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "cohere_008",
+      "meta_ai_004",
+      "alibaba_group_040",
+      "alibaba_group_041",
+      "qwen_005"
+    ],
+    "latency_s": 2.32
+  },
+  {
+    "id": 26,
+    "question": "Which organizations partnered with Cohere to develop language models in specific languages?",
+    "reference": "Fujitsu (for developing Takane, a Japanese LLM), LG (for developing a Korean LLM), and RBC (for introducing North for Banking).",
+    "prediction": "Cohere partnered with Fujitsu to co-develop Takane, a Japanese Language Model, and later entered a partnership with Ensemble Health Partners to deploy AI solutions specifically for the healthcare sector, which likely involved developing localized models for this domain. Additionally, Cohere formed a partnership with LG to create a Korean Language Model.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "cohere_003",
+      "cohere_009",
+      "cohere_007",
+      "cohere_010",
+      "cohere_008"
+    ],
+    "latency_s": 2.85
+  },
+  {
+    "id": 27,
+    "question": "Determine which publishing companies sued Cohere for copyright infringement in February 2025.",
+    "reference": "A consortium of 14 publishing companies including The Atlantic, Condé Nast, and Forbes.",
+    "prediction": "The publishing companies that sued Cohere for copyright infringement in February 2025 included The Atlantic, Condé Nast, and Forbes.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "cohere_015",
+      "cohere_014",
+      "cohere_011",
+      "anthropic_033",
+      "cohere_005"
+    ],
+    "latency_s": 1.37
+  },
+  {
+    "id": 28,
+    "question": "What percentage stake does Microsoft hold in OpenAI Group PBC following the 2025 restructuring?",
+    "reference": "Following the 2025 restructuring, Microsoft holds a 27% stake in OpenAI Group PBC.",
+    "prediction": "Following the 2025 restructuring, Microsoft holds a 27% stake in OpenAI Group PBC.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "openai_013",
+      "openai_015",
+      "openai_016",
+      "openai_010",
+      "openai_029"
+    ],
+    "latency_s": 1.19
+  },
+  {
+    "id": 29,
+    "question": "What are the research areas mentioned within Meta AI's natural language processing work?",
+    "reference": "Meta AI's natural language processing research areas include machine translation, natural language generation, and question answering.",
+    "prediction": "Meta AI's natural language processing work includes machine translation, natural language generation, and question answering.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "meta_ai_005",
+      "meta_ai_009",
+      "transformer_deep_learning_065",
+      "meta_ai_002",
+      "meta_ai_003"
+    ],
+    "latency_s": 0.96
+  },
+  {
+    "id": 30,
+    "question": "What is fastText and what methods did it introduce?",
+    "reference": "fastText is an open-source library for efficient text classification and learning word representations released by FAIR in 2016, which introduced methods based on character n-grams.",
+    "prediction": "FastText, introduced by Facebook AI Research, is a subword embedding model that extends word2vec and GloVe. Unlike traditional token-based embeddings, FastText builds character n-gram vocabularies and trains them as part of the embedding layer, allowing it to capture subwords and providing better performance for out-of-vocabulary words.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "transformer_deep_learning_056",
+      "chatgpt_019",
+      "deepseek_010",
+      "retrieval_augmented_generation_012",
+      "transformer_deep_learning_005"
+    ],
+    "latency_s": 3.0
+  },
+  {
+    "id": 31,
+    "question": "In what year did Google acquire DeepMind, and what was the reported price range?",
+    "reference": "Google confirmed its acquisition of DeepMind on 26 January 2014 for a price reportedly ranging between 650 million.",
+    "prediction": "Google acquired DeepMind in 2014, with a reported price range of $400 million to $650 million.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "google_deepmind_004",
+      "google_deepmind_009",
+      "google_deepmind_005",
+      "google_deepmind_001",
+      "google_deepmind_006"
+    ],
+    "latency_s": 1.41
+  },
+  {
+    "id": 32,
+    "question": "What does the term 'reinforcement learning' refer to in the context of DeepMind's early work?",
+    "reference": "Reinforcement learning is an algorithm that learns from experience using only raw pixels as data input. DeepMind used this approach to train AI systems to play video games and board games by learning from the outcomes of their actions.",
+    "prediction": "In the context of DeepMind's early work, reinforcement learning refers to the use of algorithms designed to learn from interaction with environments, specifically using raw pixel inputs to guide gameplay decisions across various video games, including early arcade titles like Space Invaders and Breakout.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "google_deepmind_008",
+      "google_deepmind_039",
+      "reinforcement_learning_from_human_feedback_012",
+      "google_deepmind_017",
+      "reinforcement_learning_from_human_feedback_015"
+    ],
+    "latency_s": 2.38
+  },
+  {
+    "id": 33,
+    "question": "Who are the sibling co-founders of Anthropic and what are their respective roles?",
+    "reference": "Daniela Amodei and Dario Amodei are siblings who co-founded Anthropic. Daniela Amodei is president and Dario Amodei is CEO.",
+    "prediction": "The sibling co-founders of Anthropic are Daniela Amodei and Dario Amodei. Daniela Amodei serves as the president and CEO, while Dario Amodei is the co-founder and currently holds the position of Vice President of Research at Anthropic.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "anthropic_004",
+      "anthropic_013",
+      "anthropic_001",
+      "anthropic_014",
+      "anthropic_015"
+    ],
+    "latency_s": 2.59
+  },
+  {
+    "id": 34,
+    "question": "Which companies did Anthropic accuse of knowledge distillation attacks in 2026?",
+    "reference": "Anthropic accused DeepSeek, Moonshot AI, MiniMax Group, and Alibaba Cloud of knowledge distillation attacks and distilling Claude for their models.",
+    "prediction": "In 2026, Anthropic accused Chinese competitors DeepSeek, Moonshot AI, and MiniMax Group of conducting knowledge distillation attacks in violation of Anthropic's terms of service.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "anthropic_008",
+      "anthropic_024",
+      "anthropic_033",
+      "anthropic_026",
+      "anthropic_006"
+    ],
+    "latency_s": 1.84
+  },
+  {
+    "id": 35,
+    "question": "What was the value of Alibaba's IPO on the New York Stock Exchange in September 2014?",
+    "reference": "US$231 billion, which was the largest IPO in world history at that time.",
+    "prediction": "Alibaba's IPO on the New York Stock Exchange priced at US$68 per share, raising a total of US$25 billion for the company.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "alibaba_group_009",
+      "alibaba_group_008",
+      "alibaba_group_007",
+      "alibaba_group_014",
+      "alibaba_group_012"
+    ],
+    "latency_s": 1.51
+  },
+  {
+    "id": 36,
+    "question": "What is the definition of the 1+6+N restructuring plan announced by Alibaba in March 2023?",
+    "reference": "A restructuring that reorganized Alibaba's business structure into six independently run entities with their own CEOs and boards of directors, capable of seeking independent fundraising and market listings.",
+    "prediction": "The 1+6+N restructuring plan announced by Alibaba in March 2023 divided its business structure into six independently run entities, each with its own leadership team including a CEO and board of directors, allowing them autonomy in fundraising and potential market listings.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "alibaba_group_017",
+      "alibaba_group_018",
+      "alibaba_group_038",
+      "alibaba_group_029",
+      "alibaba_group_014"
+    ],
+    "latency_s": 2.39
+  },
+  {
+    "id": 37,
+    "question": "How much storage space does each LoRA adapter require compared to a complete model?",
+    "reference": "Each adapter requires less than one percent of the storage space of a complete model.",
+    "prediction": "Each LoRA adapter requires less than one percent of the storage space of a complete model.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "lora_machine_learning_006",
+      "lora_machine_learning_005",
+      "lora_machine_learning_003",
+      "lora_machine_learning_004",
+      "lora_machine_learning_002"
+    ],
+    "latency_s": 0.95
+  },
+  {
+    "id": 38,
+    "question": "What is reinforcement learning from human feedback (RLHF)?",
+    "reference": "RLHF is a technique to align an intelligent agent with human preferences. It involves training a reward model to represent preferences from human feedback, which can then be used to train other models through reinforcement learning.",
+    "prediction": "Reinforcement Learning from Human Feedback (RLHF) is a technique in machine learning where a reward model is trained directly from human feedback to guide the behavior of an intelligent agent, helping to align the agent’s actions with human preferences. This approach uses a reward model to predict whether a response is desirable, guiding the agent's policy towards behaviors preferred by humans.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "reinforcement_learning_from_human_feedback_001",
+      "reinforcement_learning_from_human_feedback_014",
+      "reinforcement_learning_from_human_feedback_012",
+      "reinforcement_learning_from_human_feedback_004",
+      "reinforcement_learning_from_human_feedback_010"
+    ],
+    "latency_s": 3.27
+  },
+  {
+    "id": 39,
+    "question": "Why is explicitly defining a reward function challenging in classical reinforcement learning?",
+    "reference": "Explicitly defining a reward function that accurately approximates human preferences is challenging because human preferences are complex and difficult to quantify into a single numerical signal.",
+    "prediction": "In classical reinforcement learning, defining a reward function is challenging because the rewards often depend on subjective human preferences and values, making them difficult to quantify and consistently evaluate across different scenarios and contexts. Additionally, complex tasks may involve multiple conflicting objectives that are hard to encapsulate into a single numerical reward signal.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "reinforcement_learning_from_human_feedback_018",
+      "reinforcement_learning_from_human_feedback_015",
+      "reinforcement_learning_from_human_feedback_010",
+      "reinforcement_learning_from_human_feedback_012",
+      "reinforcement_learning_from_human_feedback_016"
+    ],
+    "latency_s": 2.65
+  },
+  {
+    "id": 40,
+    "question": "How is the reward model trained in RLHF?",
+    "reference": "The reward model is trained by replacing the final layer of a pre-trained model with a randomly initialized regression head, and then training it on human preference comparison data using a cross-entropy loss function to predict which responses humans prefer.",
+    "prediction": "The reward model in RLHF is typically trained in a supervised manner using a small dataset of pairs of prompts and corresponding annotated responses from human annotators, where humans rank the responses according to their desirability.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "reinforcement_learning_from_human_feedback_014",
+      "reinforcement_learning_from_human_feedback_012",
+      "reinforcement_learning_from_human_feedback_011",
+      "reinforcement_learning_from_human_feedback_010",
+      "reinforcement_learning_from_human_feedback_001"
+    ],
+    "latency_s": 1.95
+  },
+  {
+    "id": 41,
+    "question": "What are the main types of direct alignment algorithms mentioned as alternatives to RLHF?",
+    "reference": "The mentioned direct alignment algorithms are Direct Preference Optimization (DPO), Identity Preference Optimization (IPO), and Kahneman-Tversky Optimization (KTO).",
+    "prediction": "The main type of direct alignment algorithm mentioned as an alternative to RLHF is Direct Preference Optimization (DPO). Unlike RLHF, which involves training a separate reward model, DPO directly adjusts the main model according to human preferences, making the process simpler and potentially more interpretable.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "reinforcement_learning_from_human_feedback_027",
+      "reinforcement_learning_from_human_feedback_011",
+      "reinforcement_learning_from_human_feedback_029",
+      "ai_alignment_041",
+      "reinforcement_learning_from_human_feedback_028"
+    ],
+    "latency_s": 2.56
+  },
+  {
+    "id": 42,
+    "question": "What is the difference between reinforcement learning from human feedback (RLHF) and reinforcement learning from AI feedback (RLAIF)?",
+    "reference": "While RLHF relies on training a preference model from human feedback, RLAIF relies on training a preference model from automatically generated AI feedback, such as feedback based on conformance to constitutional principles in Anthropic's constitutional AI.",
+    "prediction": "Reinforcement Learning from Human Feedback (RLHF) trains a reward model directly from human feedback to guide the behavior of an agent towards desired outcomes, whereas Reinforcement Learning from AI Feedback (RLAIF) uses an already existing AI system to generate feedback for training purposes, which is then incorporated into the learning process.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "reinforcement_learning_from_human_feedback_026",
+      "reinforcement_learning_from_human_feedback_012",
+      "reinforcement_learning_from_human_feedback_001",
+      "reinforcement_learning_from_human_feedback_014",
+      "reinforcement_learning_from_human_feedback_010"
+    ],
+    "latency_s": 2.9
+  },
+  {
+    "id": 43,
+    "question": "How does RAG improve transparency in LLM responses?",
+    "reference": "RAG allows LLMs to include sources in their responses, so users can verify the cited sources and cross-check retrieved content to ensure accuracy and relevance.",
+    "prediction": "Retrieval-augmented generation (RAG) improves transparency in LLM responses by allowing the model to cite the sources of its information, thereby enabling users to verify the cited sources and ensuring that the responses are grounded in factual evidence rather than relying solely on the model’s internal knowledge.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "retrieval_augmented_generation_006",
+      "retrieval_augmented_generation_017",
+      "retrieval_augmented_generation_008",
+      "retrieval_augmented_generation_005",
+      "retrieval_augmented_generation_002"
+    ],
+    "latency_s": 2.64
+  },
+  {
+    "id": 44,
+    "question": "What is Mixture of Experts (MoE) and what type of machine learning technique is it?",
+    "reference": "Mixture of Experts is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions. It represents a form of ensemble learning.",
+    "prediction": "Mixture of Experts (MoE) is a machine learning technique where multiple expert networks, known as learners, are employed to partition a problem space into homogeneous regions. It represents a form of ensemble learning, designed to improve computational efficiency by selectively activating subsets of experts based on input characteristics.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "mixture_of_experts_001",
+      "mixture_of_experts_009",
+      "mixture_of_experts_010",
+      "mixture_of_experts_022",
+      "mixture_of_experts_020"
+    ],
+    "latency_s": 2.59
+  },
+  {
+    "id": 45,
+    "question": "How does the standard MoE combine expert outputs to produce a single output?",
+    "reference": "The standard MoE produces a single output by combining expert outputs according to weights using the formula: f(x) = Σi w(x)i fi(x), which is a weighted sum of expert outputs.",
+    "prediction": "In standard Mixture of Experts (MoE), the expert outputs are typically summed together to produce a single output, even though each expert may contribute unequally due to varying frequencies of consultation.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "mixture_of_experts_014",
+      "mixture_of_experts_010",
+      "mixture_of_experts_020",
+      "mixture_of_experts_009",
+      "mixture_of_experts_002"
+    ],
+    "latency_s": 1.8
+  },
+  {
+    "id": 46,
+    "question": "What was the application domain for the meta-pi network described in the text?",
+    "reference": "The meta-pi network was used for classifying phonemes in speech signals from 6 different Japanese speakers (2 females and 4 males), where each expert was a time-delayed neural network operating on mel spectrograms.",
+    "prediction": "The meta-pi network was applied to classify phonemes in speech signals from six different Japanese speakers using a mixture of time-delayed neural networks.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "mixture_of_experts_003",
+      "meta_ai_009",
+      "google_deepmind_048",
+      "google_deepmind_045",
+      "deepseek_010"
+    ],
+    "latency_s": 1.39
+  },
+  {
+    "id": 47,
+    "question": "List the companies and models mentioned as examples of MoE implementations.",
+    "reference": "Companies and models mentioned include: Google Brain (sparsely-gated MoE), Google (GShard, GLaM, Palm-540B), Meta AI (NLLB-200), Mistral AI (Mixtral 8x7B), Databricks (DBRX), Nvidia (Nemotron family, Kimi K3), and DeepSeek.",
+    "prediction": "Companies and models mentioned as examples of MoE implementations include Mistral AI's Mixtral 8x7B and its instruction-tuned version, Databricks' DBRX and its instruction-tuned version, and Google's large language models using MoE technology.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "mixture_of_experts_020",
+      "mixture_of_experts_022",
+      "mixture_of_experts_009",
+      "mixture_of_experts_014",
+      "mixture_of_experts_019"
+    ],
+    "latency_s": 2.47
+  },
+  {
+    "id": 48,
+    "question": "Determine what training method alternatives to gradient descent are available for MoE models?",
+    "reference": "The expectation-maximization algorithm is mentioned as an alternative to gradient descent for training MoE, similar to how Gaussian mixture models are trained. During the expectation step, burden for explaining data points is assigned over experts, and during the maximization step, experts and gates are trained.",
+    "prediction": "Training methods other than gradient descent for MoE models include using the expectation-maximization (EM) algorithm, where during the expectation step, the \"burden\" for explaining each data point is assigned among the experts, and during the maximization step, the experts are updated based on their assigned burdens, potentially leading to faster convergence compared to gradient ascent. Additionally, gating functions can use various forms such as softmax, Gaussian distributions, or exponential families, and instead of selecting the highest-ranked expert, hard MoE might choose the single best-performing expert directly without considering the others.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "mixture_of_experts_020",
+      "mixture_of_experts_022",
+      "mixture_of_experts_007",
+      "mixture_of_experts_002",
+      "mixture_of_experts_009"
+    ],
+    "latency_s": 5.07
+  },
+  {
+    "id": 49,
+    "question": "Define what is AI alignment.",
+    "reference": "AI alignment aims to steer AI systems toward a person's or group's intended goals, preferences, or ethical principles. An AI system is considered aligned if it advances the intended objectives.",
+    "prediction": "AI alignment refers to the process of ensuring that an artificial intelligence system operates according to the intended goals, values, or ethical principles of its creators or users, rather than pursuing unintended objectives. This includes addressing both outer alignment, where the system’s overall purpose is correctly specified, and inner alignment, where the system robustly adheres to these specifications despite potential attempts to circumvent them by adversaries.",
+    "system": "rag",
+    "variant": "hybrid",
+    "k": 5,
+    "passages": [
+      "ai_alignment_007",
+      "ai_alignment_001",
+      "ai_alignment_003",
+      "ai_alignment_006",
+      "ai_alignment_014"
+    ],
+    "latency_s": 3.48
+  }
+]
